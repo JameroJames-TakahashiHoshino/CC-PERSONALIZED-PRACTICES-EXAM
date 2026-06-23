@@ -1,0 +1,4275 @@
+# ISC2 CC V3 Mega Practice Bank - 600 Hard No-Repeat Questions
+
+Original practice questions only. Not official ISC2 content.
+
+Design rules: 120 per domain, no repeated stems, no variant filler, plausible CC distractors, scenario-based wording.
+
+# Domain 1 - Security Principles
+
+**V3 hard bank: no repeated question stems. Original practice only; not official ISC2 content.**
+
+Choose the BEST answer. Each wrong choice is a plausible CC term.
+
+**1. A payroll routing number is changed without approval, while the payroll system remains online and no one outside payroll sees it. Which objective is MOST affected?**
+A. Availability
+B. Privacy
+C. Confidentiality
+D. Integrity
+
+**2. A contractor silently copies customer records to a personal drive but leaves the database accurate and available. Which objective is MOST affected?**
+A. Integrity
+B. Confidentiality
+C. Accountability
+D. Availability
+
+**3. A benefits portal contains correct data and strong access controls, but employees cannot reach it during open enrollment. Which objective is MOST affected?**
+A. Integrity
+B. Availability
+C. Confidentiality
+D. Privacy
+
+**4. A clinic shares patient contact details for marketing despite opt-out choices in the privacy notice. Which concept is MOST affected?**
+A. Confidentiality
+B. Availability
+C. Privacy
+D. Integrity
+
+**5. A signed purchase approval later prevents the approver from credibly denying the action. Which concept is BEST shown?**
+A. Authentication
+B. Non-repudiation
+C. Authorization
+D. Accountability
+
+**6. A hash mismatch is found after downloading a security update from a vendor. Which objective is MOST directly questioned?**
+A. Confidentiality
+B. Identification
+C. Availability
+D. Integrity
+
+**7. Ransomware prevents employees from opening files needed for operations. Which objective is MOST affected?**
+A. Privacy
+B. Integrity
+C. Availability
+D. Confidentiality
+
+**8. A printed HR salary report is left in a conference room and read by unauthorized staff. Which objective is MOST affected?**
+A. Non-repudiation
+B. Integrity
+C. Availability
+D. Confidentiality
+
+**9. A customer profile is accurate and reachable, but consent settings are ignored when sharing it with partners. Which concept is BEST?**
+A. Authentication
+B. Availability
+C. Privacy
+D. Integrity
+
+**10. A financial dashboard shows altered totals after a database tampering incident. Which objective is MOST affected?**
+A. Availability
+B. Integrity
+C. Confidentiality
+D. Privacy
+
+**11. A login screen accepts an employee ID before requesting any proof. Which IAAA concept is this?**
+A. Accountability
+B. Authentication
+C. Authorization
+D. Identification
+
+**12. A user proves a claimed identity with a password and token code. Which IAAA concept is this?**
+A. Authorization
+B. Accountability
+C. Identification
+D. Authentication
+
+**13. A system lets a signed-in user view invoices but not approve payments. Which IAAA concept is this?**
+A. Authorization
+B. Authentication
+C. Accountability
+D. Identification
+
+**14. Unique admin IDs and audit trails identify who changed a database permission. Which IAAA concept is supported?**
+A. Identification
+B. Authorization
+C. Accountability
+D. Authentication
+
+**15. A shared administrator account makes it impossible to prove which engineer deleted evidence. Which concept is MOST harmed?**
+A. Authentication
+B. Availability
+C. Authorization
+D. Accountability
+
+**16. A badge number presented to a door reader before PIN entry is primarily what?**
+A. Authentication
+B. Identification
+C. Non-repudiation
+D. Authorization
+
+**17. A biometric scan validates that the enrolled user is present. Which concept is this?**
+A. Identification
+B. Authentication
+C. Accountability
+D. Authorization
+
+**18. A database checks an access control list after successful login. Which concept is this?**
+A. Authentication
+B. Privacy
+C. Identification
+D. Authorization
+
+**19. A legal document is digitally signed and timestamped. Which concept is strongest?**
+A. Identification
+B. Authorization
+C. Non-repudiation
+D. Availability
+
+**20. A system log links privileged commands to named users and times. Which concept is strongest?**
+A. Availability
+B. Accountability
+C. Privacy
+D. Confidentiality
+
+**21. A password plus a security question is required. Why is it not true MFA?**
+A. It provides non-repudiation only
+B. It proves authorization only
+C. Both are knowledge factors
+D. It is possession plus biometric
+
+**22. A password plus a smart card is required for VPN access. Which description is BEST?**
+A. Authorization only
+B. Multi-factor authentication
+C. Single-factor authentication
+D. Identification only
+
+**23. A username, password, and PIN are required. Which description is MOST precise?**
+A. Possession plus biometric
+B. Authorization plus accountability
+C. Three-factor authentication
+D. Identification plus one authentication factor category
+
+**24. A secure lab requires a proximity badge and fingerprint. Which factors are used?**
+A. Identification only
+B. Something you know and something you have
+C. Two knowledge factors
+D. Something you have and something you are
+
+**25. A mobile authenticator app generates a code after password entry. What factor is the app normally treated as?**
+A. Something you are
+B. Somewhere you are
+C. Something you have
+D. Something you know
+
+**26. Face scan and fingerprint are both required, with no password or token. What is the BEST concern?**
+A. They are both possession factors
+B. They are both identification only
+C. They may still be the same factor category
+D. They are only authorization
+
+**27. A PIN and a memorized pattern are required. Which is the BEST classification?**
+A. Biometric authentication
+B. Single-factor authentication
+C. Possession factor only
+D. Multi-factor authentication
+
+**28. A smart card and PIN unlock an administrator workstation. Which is BEST?**
+A. Single-factor authentication
+B. Multi-factor authentication
+C. Identification only
+D. Authorization only
+
+**29. A missing patch on a public server is discovered during scanning. Which term is BEST?**
+A. Vulnerability
+B. Threat actor
+C. Threat
+D. Risk
+
+**30. A criminal group sends phishing messages to employees. Which term is BEST?**
+A. Threat actor
+B. Exploit
+C. Vulnerability
+D. Threat
+
+**31. A phishing campaign could lead to credential theft. Which term is BEST?**
+A. Asset
+B. Vulnerability
+C. Threat
+D. Threat actor
+
+**32. A script is used to abuse an unpatched service. Which term is BEST?**
+A. Exploit
+B. Threat
+C. Vulnerability
+D. Risk
+
+**33. Customer data, production systems, and reputation are listed for protection. Which term is BEST?**
+A. Exploit
+B. Threat
+C. Asset
+D. Likelihood
+
+**34. The estimated outage cost is PHP 2,000,000. Which term is BEST?**
+A. Risk appetite
+B. Residual risk
+C. Likelihood
+D. Impact
+
+**35. The chance of credential theft this quarter is rated high. Which term is BEST?**
+A. Risk transference
+B. Impact
+C. Asset
+D. Likelihood
+
+**36. The chance and business damage of ransomware are considered together. Which term is BEST?**
+A. Risk
+B. Exploit
+C. Asset
+D. Threat
+
+**37. Risk is evaluated before any safeguards are added. Which term is BEST?**
+A. Residual risk
+B. Risk tolerance
+C. Inherent risk
+D. Risk acceptance
+
+**38. Some risk remains after MFA, firewall rules, and monitoring. Which term is BEST?**
+A. Risk appetite
+B. Inherent risk
+C. Risk avoidance
+D. Residual risk
+
+**39. The board says it has low willingness to accept privacy risk. Which term is BEST?**
+A. Risk acceptance
+B. Risk tolerance
+C. Risk appetite
+D. Residual risk
+
+**40. The policy says no critical system may be down more than 30 minutes. Which term is BEST?**
+A. Risk acceptance
+B. Risk appetite
+C. Risk transference
+D. Risk tolerance
+
+**41. Management documents that a low-risk vulnerability will not be fixed. Which term is BEST?**
+A. Risk acceptance
+B. Risk appetite
+C. Risk mitigation
+D. Risk tolerance
+
+**42. A project is cancelled because it would require unnecessary biometric collection. Which term is BEST?**
+A. Risk transference
+B. Risk acceptance
+C. Risk avoidance
+D. Risk mitigation
+
+**43. A legacy app remains in use, but a WAF and logging are added. Which term is BEST?**
+A. Risk acceptance
+B. Risk transference
+C. Risk avoidance
+D. Risk mitigation
+
+**44. Cyber insurance is purchased for ransomware recovery costs. Which term is BEST?**
+A. Risk avoidance
+B. Risk mitigation
+C. Risk acceptance
+D. Risk transference
+
+**45. A third-party payment processor handles card transactions. Which term is BEST?**
+A. Risk transference
+B. Risk tolerance
+C. Risk avoidance
+D. Residual risk
+
+**46. Risks are ranked red, yellow, and green. Which term is BEST?**
+A. Risk tolerance
+B. Quantitative risk assessment
+C. Qualitative risk assessment
+D. Risk treatment
+
+**47. Annualized loss is calculated in pesos. Which term is BEST?**
+A. Risk identification
+B. Quantitative risk assessment
+C. Risk appetite
+D. Qualitative risk assessment
+
+**48. Risk owner, likelihood, impact, treatment, and status are tracked in one list. Which term is BEST?**
+A. Risk tolerance
+B. Control baseline
+C. Risk appetite
+D. Risk register
+
+**49. Assets, threats, and weaknesses are listed before scoring them. Which term is BEST?**
+A. Risk acceptance
+B. Risk treatment
+C. Risk identification
+D. Risk tolerance
+
+**50. Likelihood and impact are compared for a scenario. Which term is BEST?**
+A. Risk acceptance
+B. Risk transference
+C. Risk identification
+D. Risk assessment
+
+**51. The organization chooses avoid, mitigate, transfer, or accept. Which term is BEST?**
+A. Risk treatment
+B. Risk assessment
+C. Risk identification
+D. Risk appetite
+
+**52. National ID collection continues, but encryption and access restrictions are added. Which term is BEST?**
+A. Risk mitigation
+B. Risk acceptance
+C. Risk transference
+D. Risk avoidance
+
+**53. National ID collection is stopped because the business does not need it. Which term is BEST?**
+A. Risk acceptance
+B. Risk avoidance
+C. Risk mitigation
+D. Risk tolerance
+
+**54. A low-risk exception is approved because remediation cost exceeds expected loss. Which term is BEST?**
+A. Risk appetite
+B. Risk acceptance
+C. Risk tolerance
+D. Risk transference
+
+**55. Annual phishing awareness training is required for employees. Which classification is BEST?**
+A. Technical control
+B. Corrective control
+C. Physical control
+D. Administrative control
+
+**56. Full-disk encryption protects stolen laptops. Which classification is BEST?**
+A. Physical control
+B. Deterrent control
+C. Technical control
+D. Administrative control
+
+**57. A fence surrounds the data center campus. Which classification is BEST?**
+A. Administrative control
+B. Recovery control
+C. Technical control
+D. Physical control
+
+**58. A firewall rule blocks unauthorized inbound traffic. Which classification is BEST?**
+A. Corrective control
+B. Preventive control
+C. Detective control
+D. Recovery control
+
+**59. An IDS alerts but does not block. Which classification is BEST?**
+A. Corrective control
+B. Detective control
+C. Recovery control
+D. Preventive control
+
+**60. A tested patch fixes a known vulnerability. Which classification is BEST?**
+A. Corrective control
+B. Detective control
+C. Deterrent control
+D. Recovery control
+
+**61. A backup restore returns deleted files. Which classification is BEST?**
+A. Compensating control
+B. Detective control
+C. Recovery control
+D. Preventive control
+
+**62. A warning sign says unauthorized access will be prosecuted. Which classification is BEST?**
+A. Compensating control
+B. Deterrent control
+C. Corrective control
+D. Recovery control
+
+**63. Manual log review is added because MFA cannot run on a legacy app. Which classification is BEST?**
+A. Physical control
+B. Preventive control
+C. Recovery control
+D. Compensating control
+
+**64. A background check is performed before hiring administrators. Which classification is BEST?**
+A. Recovery control
+B. Physical detective control
+C. Technical corrective control
+D. Administrative preventive control
+
+**65. CCTV records the server room entrance for later review. Which classification is BEST?**
+A. Physical detective control
+B. Physical preventive control
+C. Administrative corrective control
+D. Technical detective control
+
+**66. A locked cabinet protects backup media. Which classification is BEST?**
+A. Administrative detective control
+B. Physical detective control
+C. Physical preventive control
+D. Technical preventive control
+
+**67. A procedure requires daily review of privileged activity logs. Which classification is BEST?**
+A. Technical preventive control
+B. Physical preventive control
+C. Administrative detective control
+D. Recovery control
+
+**68. MFA blocks access when only a stolen password is used. Which classification is BEST?**
+A. Recovery control
+B. Administrative corrective control
+C. Physical detective control
+D. Technical preventive control
+
+**69. A high-level document states that confidential data must be encrypted. Which answer is MOST precise?**
+A. Guideline
+B. Procedure
+C. Policy
+D. Standard
+
+**70. A runbook lists exact steps to enable laptop encryption. Which answer is MOST precise?**
+A. Standard
+B. Procedure
+C. Policy
+D. Guideline
+
+**71. Minimum password length is set to 14 characters. Which answer is MOST precise?**
+A. Standard
+B. Policy
+C. Procedure
+D. Guideline
+
+**72. Teams are advised to consider approved password managers. Which answer is MOST precise?**
+A. Guideline
+B. Procedure
+C. Standard
+D. Policy
+
+**73. A government privacy rule includes penalties. Which answer is MOST precise?**
+A. Standard
+B. Guideline
+C. Procedure
+D. Regulation
+
+**74. A document defines permitted and prohibited internet use. Which answer is MOST precise?**
+A. Password policy
+B. Acceptable Use Policy
+C. Privacy policy
+D. Data handling policy
+
+**75. A document explains personal-data collection, sharing, retention, and protection. Which answer is MOST precise?**
+A. Acceptable Use Policy
+B. Password policy
+C. Privacy policy
+D. Change management policy
+
+**76. A document covers classification, storage, transmission, retention, and destruction. Which answer is MOST precise?**
+A. Data handling policy
+B. Password policy
+C. Acceptable Use Policy
+D. Privacy policy
+
+**77. An analyst refuses to hide a customer-impacting breach. Which answer is MOST precise?**
+A. Advance and protect the profession
+B. Protect society, the common good, public trust, and infrastructure
+C. Provide diligent and competent service to principals
+D. Act honorably, honestly, justly, responsibly, and legally
+
+**78. A professional refuses to falsify an audit result. Which answer is MOST precise?**
+A. Protect society, the common good, public trust, and infrastructure
+B. Provide diligent and competent service to principals
+C. Act honorably, honestly, justly, responsibly, and legally
+D. Advance and protect the profession
+
+**79. A consultant seeks qualified help for work outside their competence. Which answer is MOST precise?**
+A. Provide diligent and competent service to principals
+B. Act honorably, honestly, justly, responsibly, and legally
+C. Advance and protect the profession
+D. Protect society, the common good, public trust, and infrastructure
+
+**80. A member reports fraudulent certification claims damaging trust in the field. Which answer is MOST precise?**
+A. Advance and protect the profession
+B. Act honorably, honestly, justly, responsibly, and legally
+C. Protect society, the common good, public trust, and infrastructure
+D. Provide diligent and competent service to principals
+
+**81. A customer name and email address are stored in CRM. Which answer is MOST precise?**
+A. HIPAA
+B. PII
+C. PCI-DSS
+D. PHI
+
+**82. A patient name is linked to diagnosis notes. Which answer is MOST precise?**
+A. PII only with no health context
+B. GDPR
+C. PHI
+D. PCI-DSS
+
+**83. Cardholder account data is processed by an online store. Which answer is MOST precise?**
+A. PCI-DSS
+B. GDPR
+C. HIPAA
+D. PHI
+
+**84. EU residents exercise rights over processing of personal data. Which answer is MOST precise?**
+A. PHI
+B. HIPAA
+C. PCI-DSS
+D. GDPR
+
+**85. A U.S. healthcare provider protects patient records. Which answer is MOST precise?**
+A. PCI-DSS
+B. AUP
+C. GDPR
+D. HIPAA
+
+**86. A policy says no more than 100 records may be exposed before executive notification. Which term is BEST?**
+A. Residual risk
+B. Risk acceptance
+C. Risk appetite
+D. Risk tolerance
+
+**87. A system owner accepts one documented vulnerability exception for 30 days. Which term is BEST?**
+A. Risk appetite
+B. Risk avoidance
+C. Risk acceptance
+D. Risk tolerance
+
+**88. A business rejects a new feature due to high privacy exposure. Which term is BEST?**
+A. Residual risk
+B. Risk avoidance
+C. Risk mitigation
+D. Risk transfer
+
+**89. A business deploys consent controls before launching a feature. Which term is BEST?**
+A. Risk mitigation
+B. Risk acceptance
+C. Risk avoidance
+D. Inherent risk
+
+**90. A vendor contract includes liability for service failure. Which term is BEST?**
+A. Risk tolerance
+B. Risk avoidance
+C. Risk transference
+D. Qualitative assessment
+
+**91. A table rates cyber risks as low, medium, or high. Which term is BEST?**
+A. Qualitative risk assessment
+B. Risk register
+C. Quantitative risk assessment
+D. Control testing
+
+**92. A report calculates single loss expectancy and annual rate of occurrence. Which term is BEST?**
+A. Quantitative risk assessment
+B. Qualitative risk assessment
+C. Risk appetite
+D. Risk tolerance
+
+**93. A step-by-step guide explains how to collect endpoint logs. Which term is BEST?**
+A. Procedure
+B. Policy
+C. Guideline
+D. Standard
+
+**94. An optional recommendation suggests using screen protectors in public areas. Which term is BEST?**
+A. Standard
+B. Guideline
+C. Regulation
+D. Procedure
+
+**95. An internal mandatory requirement says Restricted data must use AES-256. Which term is BEST?**
+A. Policy
+B. Guideline
+C. Procedure
+D. Standard
+
+**96. A safeguard identifies suspicious behavior after it happens. Which term is BEST?**
+A. Compensating control
+B. Detective control
+C. Preventive control
+D. Recovery control
+
+**97. A safeguard restores operations after a disruption. Which term is BEST?**
+A. Deterrent control
+B. Detective control
+C. Recovery control
+D. Preventive control
+
+**98. A safeguard discourages trespassing but may not physically stop it. Which term is BEST?**
+A. Recovery control
+B. Preventive control
+C. Corrective control
+D. Deterrent control
+
+**99. A technical rule denies untrusted inbound connections. Which term is BEST?**
+A. Privacy control
+B. Physical control
+C. Administrative control
+D. Technical control
+
+**100. A tangible barrier blocks access to a restricted area. Which term is BEST?**
+A. Physical control
+B. Technical control
+C. Detective control
+D. Administrative control
+
+**101. A training module explains when to report suspicious emails. Which term is BEST?**
+A. Administrative control
+B. Technical control
+C. Physical control
+D. Corrective control
+
+**102. An attacker reads an executive email inbox but does not modify messages. Which answer is BEST?**
+A. Non-repudiation
+B. Integrity
+C. Confidentiality
+D. Availability
+
+**103. A software update repository remains online, but the published package contents are altered. Which answer is BEST?**
+A. Privacy
+B. Integrity
+C. Identification
+D. Availability
+
+**104. A help desk system has correct tickets but becomes unreachable during a network outage. Which answer is BEST?**
+A. Integrity
+B. Availability
+C. Confidentiality
+D. Accountability
+
+**105. A user claims to be del.jamero before presenting a token code. Which answer is BEST?**
+A. Identification
+B. Accountability
+C. Authentication
+D. Authorization
+
+**106. A token code confirms that the person logging in controls the registered device. Which answer is BEST?**
+A. Identification
+B. Authentication
+C. Privacy
+D. Authorization
+
+**107. A signed-in analyst is blocked from exporting restricted records. Which answer is BEST?**
+A. Non-repudiation
+B. Identification
+C. Authentication
+D. Authorization
+
+**108. An audit trail shows which user approved a privileged change. Which answer is BEST?**
+A. Accountability
+B. Privacy
+C. Availability
+D. Confidentiality
+
+**109. A privacy statement explains retention and third-party sharing of customer data. Which answer is BEST?**
+A. Acceptable Use Policy
+B. Procedure
+C. Password policy
+D. Privacy policy
+
+**110. A mandatory internal rule says all admin access must use MFA. Which answer is BEST?**
+A. Risk register
+B. Policy
+C. Procedure
+D. Guideline
+
+**111. A configuration requirement says admin passwords must be at least 16 characters. Which answer is BEST?**
+A. Policy
+B. Guideline
+C. Procedure
+D. Standard
+
+**112. A runbook describes exactly how to revoke terminated user access. Which answer is BEST?**
+A. Policy
+B. Procedure
+C. Guideline
+D. Regulation
+
+**113. A recommendation says teams should consider phishing-resistant MFA for admins. Which answer is BEST?**
+A. Standard
+B. Regulation
+C. Guideline
+D. Procedure
+
+**114. A law requires breach notification within a defined time. Which answer is BEST?**
+A. Policy
+B. Regulation
+C. Guideline
+D. Procedure
+
+**115. A company adds rate limiting to reduce automated login attempts. Which answer is BEST?**
+A. Risk acceptance
+B. Risk mitigation
+C. Risk avoidance
+D. Risk transference
+
+**116. A company decommissions an exposed legacy service rather than securing it. Which answer is BEST?**
+A. Risk acceptance
+B. Risk avoidance
+C. Residual risk
+D. Risk mitigation
+
+**117. A company documents no action on a minor vulnerability after management review. Which answer is BEST?**
+A. Risk appetite
+B. Risk mitigation
+C. Risk acceptance
+D. Risk tolerance
+
+**118. A company defines its broad willingness to take innovation risk. Which answer is BEST?**
+A. Risk appetite
+B. Risk acceptance
+C. Risk tolerance
+D. Inherent risk
+
+**119. A company defines maximum acceptable loss as PHP 500,000 for a scenario. Which answer is BEST?**
+A. Risk appetite
+B. Risk tolerance
+C. Residual risk
+D. Risk acceptance
+
+**120. A supplier contract shifts part of outage penalty exposure to the provider. Which answer is BEST?**
+A. Risk avoidance
+B. Risk acceptance
+C. Risk mitigation
+D. Risk transference
+
+
+## Answer Key - Domain 1 - Security Principles
+
+| # | Ans | Correct answer | Why |
+|---:|:---:|---|---|
+| 1 | D | Integrity | Unauthorized modification affects integrity. |
+| 2 | B | Confidentiality | Unauthorized disclosure affects confidentiality. |
+| 3 | B | Availability | A needed service is not accessible. |
+| 4 | C | Privacy | Privacy concerns proper use and sharing of personal data. |
+| 5 | B | Non-repudiation | Non-repudiation prevents denial of an action. |
+| 6 | D | Integrity | A changed hash suggests data alteration. |
+| 7 | C | Availability | Denied access affects availability. |
+| 8 | D | Confidentiality | Unauthorized viewing is confidentiality loss. |
+| 9 | C | Privacy | Consent and data use are privacy concerns. |
+| 10 | B | Integrity | Altered values affect integrity. |
+| 11 | D | Identification | Identification is claiming an identity. |
+| 12 | D | Authentication | Authentication proves identity. |
+| 13 | A | Authorization | Authorization determines permitted actions. |
+| 14 | C | Accountability | Traceability supports accountability. |
+| 15 | D | Accountability | Shared accounts weaken traceability. |
+| 16 | B | Identification | The badge identifier claims an identity. |
+| 17 | B | Authentication | Biometrics verify identity. |
+| 18 | D | Authorization | Permissions are checked after authentication. |
+| 19 | C | Non-repudiation | Signature evidence helps prevent denial. |
+| 20 | B | Accountability | Logs link actions to entities. |
+| 21 | C | Both are knowledge factors | Both factors are something you know. |
+| 22 | B | Multi-factor authentication | It combines knowledge and possession. |
+| 23 | D | Identification plus one authentication factor category | Password and PIN are both knowledge; username identifies. |
+| 24 | D | Something you have and something you are | Badge is possession; fingerprint is biometric. |
+| 25 | C | Something you have | The device/app is possession. |
+| 26 | C | They may still be the same factor category | Both are biometrics. |
+| 27 | B | Single-factor authentication | Both are knowledge-style secrets. |
+| 28 | B | Multi-factor authentication | Possession plus knowledge. |
+| 29 | A | Vulnerability | A weakness is a vulnerability. |
+| 30 | A | Threat actor | The group is the actor. |
+| 31 | C | Threat | A potential cause of harm is a threat. |
+| 32 | A | Exploit | Exploit is the method or code. |
+| 33 | C | Asset | Assets are valuable things. |
+| 34 | D | Impact | Impact is consequence or damage. |
+| 35 | D | Likelihood | Likelihood is probability. |
+| 36 | A | Risk | Risk combines likelihood and impact. |
+| 37 | C | Inherent risk | Before controls = inherent risk. |
+| 38 | D | Residual risk | Remaining after controls = residual risk. |
+| 39 | C | Risk appetite | Broad willingness = appetite. |
+| 40 | D | Risk tolerance | Specific measurable limit = tolerance. |
+| 41 | A | Risk acceptance | Specific decision to live with risk. |
+| 42 | C | Risk avoidance | Stopping the risky activity avoids risk. |
+| 43 | D | Risk mitigation | Adding controls reduces risk. |
+| 44 | D | Risk transference | Insurance shifts financial impact. |
+| 45 | A | Risk transference | Third party assumes some responsibility/impact. |
+| 46 | C | Qualitative risk assessment | Descriptive categories are qualitative. |
+| 47 | B | Quantitative risk assessment | Money/numbers indicate quantitative. |
+| 48 | D | Risk register | Risk register tracks risk details. |
+| 49 | C | Risk identification | Finding risks is identification. |
+| 50 | D | Risk assessment | Assessment analyzes risk. |
+| 51 | A | Risk treatment | Treatment selects response. |
+| 52 | A | Risk mitigation | Continue activity with controls = mitigation. |
+| 53 | B | Risk avoidance | Stopping activity = avoidance. |
+| 54 | B | Risk acceptance | Specific approved exception = acceptance. |
+| 55 | D | Administrative control | Training is people/process. |
+| 56 | C | Technical control | Encryption is technical. |
+| 57 | D | Physical control | Fence is physical. |
+| 58 | B | Preventive control | It prevents unwanted traffic. |
+| 59 | B | Detective control | IDS detects. |
+| 60 | A | Corrective control | Patch corrects weakness. |
+| 61 | C | Recovery control | Restore supports recovery. |
+| 62 | B | Deterrent control | Warning discourages. |
+| 63 | D | Compensating control | Substitute control. |
+| 64 | D | Administrative preventive control | Process intended to prevent risk. |
+| 65 | A | Physical detective control | CCTV supports detection. |
+| 66 | C | Physical preventive control | Lock prevents access. |
+| 67 | C | Administrative detective control | Review process detects. |
+| 68 | D | Technical preventive control | Technical control preventing access. |
+| 69 | C | Policy | Policy is high-level intent. |
+| 70 | B | Procedure | Step-by-step = procedure. |
+| 71 | A | Standard | Specific criteria = standard. |
+| 72 | A | Guideline | Recommended advice = guideline. |
+| 73 | D | Regulation | Legally enforceable = regulation. |
+| 74 | B | Acceptable Use Policy | AUP governs use. |
+| 75 | C | Privacy policy | Privacy policy governs personal data. |
+| 76 | A | Data handling policy | Data handling policy governs data operations. |
+| 77 | B | Protect society, the common good, public trust, and infrastructure | Public trust and society come first. |
+| 78 | C | Act honorably, honestly, justly, responsibly, and legally | Honesty and legality. |
+| 79 | A | Provide diligent and competent service to principals | Competent service. |
+| 80 | A | Advance and protect the profession | Protect profession. |
+| 81 | B | PII | PII identifies a person. |
+| 82 | C | PHI | Health info linked to identity. |
+| 83 | A | PCI-DSS | Payment card standard. |
+| 84 | D | GDPR | EU personal data protection. |
+| 85 | D | HIPAA | U.S. healthcare privacy/security. |
+| 86 | D | Risk tolerance | Specific threshold. |
+| 87 | C | Risk acceptance | Specific decision. |
+| 88 | B | Risk avoidance | Do not proceed. |
+| 89 | A | Risk mitigation | Adds controls. |
+| 90 | C | Risk transference | Contract shifts impact. |
+| 91 | A | Qualitative risk assessment | Descriptive categories. |
+| 92 | A | Quantitative risk assessment | Numeric loss calculation. |
+| 93 | A | Procedure | How-to instructions. |
+| 94 | B | Guideline | Optional advice. |
+| 95 | D | Standard | Specific requirement. |
+| 96 | B | Detective control | Detection/alerting. |
+| 97 | C | Recovery control | Restoration. |
+| 98 | D | Deterrent control | Discourages. |
+| 99 | D | Technical control | Logical/technology control. |
+| 100 | A | Physical control | Tangible physical safeguard. |
+| 101 | A | Administrative control | Training/process. |
+| 102 | C | Confidentiality | Unauthorized reading affects confidentiality. |
+| 103 | B | Integrity | Unauthorized alteration affects integrity. |
+| 104 | B | Availability | Unreachable service affects availability. |
+| 105 | A | Identification | Claiming identity is identification. |
+| 106 | B | Authentication | The token proves identity/control. |
+| 107 | D | Authorization | Permissions decide allowed actions. |
+| 108 | A | Accountability | Traceability supports accountability. |
+| 109 | D | Privacy policy | Privacy policy explains personal data handling. |
+| 110 | B | Policy | High-level mandatory internal rule is policy. |
+| 111 | D | Standard | Specific measurable requirement is a standard. |
+| 112 | B | Procedure | Step-by-step instructions are procedures. |
+| 113 | C | Guideline | Should/consider language suggests guideline. |
+| 114 | B | Regulation | Legal requirement is regulation. |
+| 115 | B | Risk mitigation | Adding a control reduces risk. |
+| 116 | B | Risk avoidance | Removing the activity avoids risk. |
+| 117 | C | Risk acceptance | Specific decision to live with risk. |
+| 118 | A | Risk appetite | Broad willingness is appetite. |
+| 119 | B | Risk tolerance | Specific financial threshold is tolerance. |
+| 120 | D | Risk transference | Contract shifts some impact. |
+
+---
+
+# Domain 2 - BC DR IR Concepts
+
+**V3 hard bank: no repeated question stems. Original practice only; not official ISC2 content.**
+
+Choose the BEST answer. Each wrong choice is a plausible CC term.
+
+**1. Executives need payroll, order processing, and customer support to continue during a long outage. Which answer is BEST?**
+A. Business Impact Analysis (BIA)
+B. Business Continuity Plan (BCP)
+C. Disaster Recovery Plan (DRP)
+D. Incident Response Plan (IRP)
+
+**2. IT writes steps to restore servers, databases, and network connectivity after a flood. Which answer is BEST?**
+A. Disaster Recovery Plan (DRP)
+B. Incident Response Plan (IRP)
+C. Business Impact Analysis (BIA)
+D. Business Continuity Plan (BCP)
+
+**3. The SOC defines detection, analysis, containment, eradication, recovery, and lessons learned steps. Which answer is BEST?**
+A. Disaster Recovery Plan (DRP)
+B. Business Continuity Plan (BCP)
+C. Incident Response Plan (IRP)
+D. Business Impact Analysis (BIA)
+
+**4. A workshop ranks business processes by outage impact and dependencies. Which answer is BEST?**
+A. Business Continuity Plan (BCP)
+B. Business Impact Analysis (BIA)
+C. Incident Response Plan (IRP)
+D. Disaster Recovery Plan (DRP)
+
+**5. The claims system must be restored within four hours. Which answer is BEST?**
+A. Recovery Time Objective (RTO)
+B. Recovery Point Objective (RPO)
+C. Mean Time To Repair (MTTR)
+D. Maximum Tolerable Downtime (MTD)
+
+**6. Restored transactions may be no more than 15 minutes old. Which answer is BEST?**
+A. Mean Time Between Failures (MTBF)
+B. Maximum Tolerable Downtime (MTD)
+C. Recovery Point Objective (RPO)
+D. Recovery Time Objective (RTO)
+
+**7. A process cannot be down beyond a regulatory filing deadline. Which answer is BEST?**
+A. Maximum Tolerable Downtime (MTD)
+B. Mean Time To Repair (MTTR)
+C. Recovery Point Objective (RPO)
+D. Recovery Time Objective (RTO)
+
+**8. Operations tracks average repair time for failed storage controllers. Which answer is BEST?**
+A. Recovery Point Objective (RPO)
+B. Recovery Time Objective (RTO)
+C. Mean Time Between Failures (MTBF)
+D. Mean Time To Repair (MTTR)
+
+**9. Reliability reporting tracks average operating time between firewall failures. Which answer is BEST?**
+A. Mean Time To Repair (MTTR)
+B. Mean Time Between Failures (MTBF)
+C. Recovery Time Objective (RTO)
+D. Maximum Tolerable Downtime (MTD)
+
+**10. An alternate facility has replicated systems and can take traffic quickly. Which answer is BEST?**
+A. Warm site
+B. Tape vault
+C. Cold site
+D. Hot site
+
+**11. An alternate facility has some hardware and links but needs restoration. Which answer is BEST?**
+A. Hot site
+B. Active-active site
+C. Warm site
+D. Cold site
+
+**12. An alternate facility provides space and utilities but little equipment. Which answer is BEST?**
+A. Active-active site
+B. Warm site
+C. Cold site
+D. Hot site
+
+**13. Duplicate circuits, power supplies, and servers support failover. Which answer is BEST?**
+A. Redundancy
+B. Data retention
+C. Backup rotation
+D. Risk acceptance
+
+**14. A UPS bridges the short gap before generator power stabilizes. Which answer is BEST?**
+A. Short-term backup power
+B. Longer-term backup power
+C. Cold site
+D. Recovery Point Objective (RPO)
+
+**15. A diesel generator supports operations during an extended utility outage. Which answer is BEST?**
+A. Mean Time To Repair (MTTR)
+B. Short-term backup power
+C. Longer-term backup power
+D. Warm site
+
+**16. A typhoon damages the primary data center roof. Which answer is BEST?**
+A. Technology threat
+B. Natural threat
+C. Environmental threat
+D. Manmade threat
+
+**17. A cooling failure triggers high temperature alarms in the server room. Which answer is BEST?**
+A. Cyber threat
+B. Natural threat
+C. Manmade threat
+D. Environmental threat
+
+**18. A disgruntled employee disconnects backup power intentionally. Which answer is BEST?**
+A. Technology threat
+B. Manmade threat
+C. Environmental threat
+D. Natural threat
+
+**19. Responders copy logs, memory images, and disk images after compromise. Which answer is BEST?**
+A. Evidence collection
+B. Eradication
+C. Business continuity
+D. Chain of custody
+
+**20. A form records who handled a disk image, transfer times, and storage location. Which answer is BEST?**
+A. Recovery Point Objective (RPO)
+B. Lessons learned
+C. Evidence collection
+D. Chain of custody
+
+**21. Before any incident, the team prepares call trees, playbooks, and tool access. Which answer is BEST?**
+A. Detection and analysis
+B. Containment
+C. Eradication
+D. Preparation
+
+**22. Alerts are reviewed to decide if activity is real and what systems are affected. Which answer is BEST?**
+A. Preparation
+B. Detection and analysis
+C. Containment
+D. Recovery
+
+**23. A compromised workstation is isolated from the network. Which answer is BEST?**
+A. Eradication
+B. Containment
+C. Recovery
+D. Lessons learned
+
+**24. Malware persistence is removed and exploited weakness is patched. Which answer is BEST?**
+A. Containment
+B. Eradication
+C. Recovery
+D. Preparation
+
+**25. A clean server image is restored and validated before user access returns. Which answer is BEST?**
+A. Detection and analysis
+B. Preparation
+C. Recovery
+D. Eradication
+
+**26. Responders update the playbook after the incident closes. Which answer is BEST?**
+A. Lessons learned
+B. Containment
+C. Detection and analysis
+D. Eradication
+
+**27. Every selected file is copied during the backup job. Which answer is BEST?**
+A. Incremental backup
+B. Snapshot
+C. Differential backup
+D. Full backup
+
+**28. Only files changed since the last backup of any type are copied. Which answer is BEST?**
+A. Incremental backup
+B. Differential backup
+C. Archive copy
+D. Full backup
+
+**29. All changes since Sunday full backup are copied each night. Which answer is BEST?**
+A. Differential backup
+B. Full backup
+C. Snapshot
+D. Incremental backup
+
+**30. Restore needs Sunday full plus Monday, Tuesday, and Wednesday backups. Which answer is BEST?**
+A. Incremental backup
+B. Full backup
+C. Mirror backup
+D. Differential backup
+
+**31. Restore needs Sunday full plus Thursday change backup. Which answer is BEST?**
+A. Incremental backup
+B. Cold site
+C. Differential backup
+D. Full backup
+
+**32. Manual order forms are prepared for sales during application outage. Which answer is BEST?**
+A. Incident eradication
+B. Business continuity workaround
+C. Disaster recovery rebuild
+D. Evidence preservation
+
+**33. A runbook rebuilds a database cluster at an alternate site. Which answer is BEST?**
+A. Business impact analysis
+B. Security awareness procedure
+C. Risk appetite statement
+D. Disaster recovery procedure
+
+**34. A crisis communication tree lists primary and backup contacts. Which answer is BEST?**
+A. Data label
+B. Cryptographic key
+C. BCP component
+D. Password policy component
+
+**35. An incident plan assigns commander, legal contact, and technical lead roles. Which answer is BEST?**
+A. Cold site asset
+B. IRP component
+C. AUP component
+D. Backup schedule
+
+**36. A hospital system must be operational within two hours. Which answer is BEST?**
+A. RTO
+B. MTD
+C. RPO
+D. MTBF
+
+**37. A payment platform can lose no more than five minutes of data. Which answer is BEST?**
+A. RTO
+B. MTD
+C. MTTR
+D. RPO
+
+**38. Penalties become unacceptable after a twelve-hour warehouse outage. Which answer is BEST?**
+A. MTTR
+B. RPO
+C. RTO
+D. MTD
+
+**39. Fire suppression fails inspection before any fire occurs. Which answer is BEST?**
+A. RBAC failure
+B. Authentication failure
+C. Environmental and physical resilience concern
+D. Incident eradication
+
+**40. A hot-aisle/cold-aisle design has poor airflow and overheating. Which answer is BEST?**
+A. Environmental infrastructure
+B. Logical access control
+C. Natural threat only
+D. Data classification
+
+**41. Alternate site choice is driven mainly by required recovery speed. Which answer is BEST?**
+A. MTBF-driven evidence
+B. RTO-driven site selection
+C. Password policy selection
+D. RPO-driven retention
+
+**42. Backup frequency is selected based on maximum tolerable data loss. Which answer is BEST?**
+A. RPO-driven backup schedule
+B. RTO-driven site cost
+C. Chain-of-custody schedule
+D. MTTR-driven training
+
+**43. A lessons learned report finds that contact numbers were outdated. Which answer is BEST?**
+A. Risk acceptance
+B. Containment evidence
+C. Post-incident improvement
+D. Backup retention
+
+**44. A legal hold requires preserving incident artifacts beyond normal retention. Which answer is BEST?**
+A. RTO calculation
+B. Cold site activation
+C. Evidence preservation
+D. Full backup selection
+
+**45. Malware is isolated before root-cause removal begins. Which answer is BEST?**
+A. Recovery before detection
+B. BIA before preparation
+C. Lessons learned before analysis
+D. Containment before eradication
+
+**46. A continuity exercise tests alternate communications during regional outage. Which answer is BEST?**
+A. BCP testing
+B. DRP media sanitization
+C. IR eradication
+D. Access revocation
+
+**47. A DR test validates backups can rebuild a critical application. Which answer is BEST?**
+A. BCP privacy review
+B. Risk appetite testing
+C. DRP testing
+D. IR lessons learned
+
+**48. An IR tabletop walks through ransomware reporting and escalation. Which answer is BEST?**
+A. IRP testing
+B. Data retention testing
+C. BIA scoring
+D. DRP facility selection
+
+**49. Critical suppliers required for shipping operations are identified. Which answer is BEST?**
+A. Business continuity dependency analysis
+B. Data remanence
+C. Cryptographic verification
+D. Threat hunting
+
+**50. A secondary internet provider automatically carries traffic when the primary fails. Which answer is BEST?**
+A. Evidence collection
+B. Data retention
+C. Risk acceptance
+D. Redundancy
+
+**51. Billing Platform must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Mean Time To Repair (MTTR)
+B. Maximum Tolerable Downtime (MTD)
+C. Recovery Point Objective (RPO)
+D. Recovery Time Objective (RTO)
+
+**52. Claims Portal backups are scheduled so restored data is never older than a defined time window. Which objective drives this?**
+A. Recovery Point Objective (RPO)
+B. Recovery Time Objective (RTO)
+C. Mean Time Between Failures (MTBF)
+D. Maximum Tolerable Downtime (MTD)
+
+**53. Business owners say warehouse scanner system outage beyond a hard deadline would cause unacceptable harm. Which term applies?**
+A. Recovery Point Objective (RPO)
+B. Maximum Tolerable Downtime (MTD)
+C. Mean Time To Repair (MTTR)
+D. Recovery Time Objective (RTO)
+
+**54. The team prepares manual workarounds so customer support phone system business functions can continue during IT recovery. Which plan owns this?**
+A. Disaster Recovery Plan (DRP)
+B. Business Impact Analysis (BIA)
+C. Business Continuity Plan (BCP)
+D. Incident Response Plan (IRP)
+
+**55. The IT runbook documents how to rebuild identity provider servers and network dependencies after disaster. Which plan owns this?**
+A. Incident Response Plan (IRP)
+B. Business Continuity Plan (BCP)
+C. Business Impact Analysis (BIA)
+D. Disaster Recovery Plan (DRP)
+
+**56. Suspicious activity affecting payment gateway is confirmed, scoped, contained, eradicated, and reviewed. Which plan guides that lifecycle?**
+A. Business Impact Analysis (BIA)
+B. Business Continuity Plan (BCP)
+C. Incident Response Plan (IRP)
+D. Disaster Recovery Plan (DRP)
+
+**57. Inventory Database is ranked by revenue impact, legal obligations, and customer effect before recovery priorities are chosen. Which activity is this?**
+A. Business Continuity Plan (BCP)
+B. Business Impact Analysis (BIA)
+C. Disaster Recovery Plan (DRP)
+D. Incident Response Plan (IRP)
+
+**58. A compromised host supporting email platform is disconnected to prevent spread before malware removal. Which IR phase?**
+A. Containment
+B. Detection and analysis
+C. Recovery
+D. Eradication
+
+**59. Malicious files and persistence related to VPN service are removed after isolation. Which IR phase?**
+A. Lessons learned
+B. Recovery
+C. Containment
+D. Eradication
+
+**60. Clean systems supporting manufacturing controller are validated and returned to normal production use. Which IR phase?**
+A. Preparation
+B. Containment
+C. Detection and analysis
+D. Recovery
+
+**61. Hr Payroll App must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Recovery Point Objective (RPO)
+B. Recovery Time Objective (RTO)
+C. Maximum Tolerable Downtime (MTD)
+D. Mean Time To Repair (MTTR)
+
+**62. Public Website backups are scheduled so restored data is never older than a defined time window. Which objective drives this?**
+A. Recovery Point Objective (RPO)
+B. Recovery Time Objective (RTO)
+C. Mean Time Between Failures (MTBF)
+D. Maximum Tolerable Downtime (MTD)
+
+**63. Business owners say call-center CRM outage beyond a hard deadline would cause unacceptable harm. Which term applies?**
+A. Recovery Time Objective (RTO)
+B. Maximum Tolerable Downtime (MTD)
+C. Recovery Point Objective (RPO)
+D. Mean Time To Repair (MTTR)
+
+**64. The team prepares manual workarounds so medical records app business functions can continue during IT recovery. Which plan owns this?**
+A. Disaster Recovery Plan (DRP)
+B. Incident Response Plan (IRP)
+C. Business Impact Analysis (BIA)
+D. Business Continuity Plan (BCP)
+
+**65. The IT runbook documents how to rebuild shipping scheduler servers and network dependencies after disaster. Which plan owns this?**
+A. Disaster Recovery Plan (DRP)
+B. Business Impact Analysis (BIA)
+C. Business Continuity Plan (BCP)
+D. Incident Response Plan (IRP)
+
+**66. Suspicious activity affecting loan origination system is confirmed, scoped, contained, eradicated, and reviewed. Which plan guides that lifecycle?**
+A. Disaster Recovery Plan (DRP)
+B. Business Impact Analysis (BIA)
+C. Business Continuity Plan (BCP)
+D. Incident Response Plan (IRP)
+
+**67. Ticketing System is ranked by revenue impact, legal obligations, and customer effect before recovery priorities are chosen. Which activity is this?**
+A. Disaster Recovery Plan (DRP)
+B. Incident Response Plan (IRP)
+C. Business Continuity Plan (BCP)
+D. Business Impact Analysis (BIA)
+
+**68. A compromised host supporting finance reporting app is disconnected to prevent spread before malware removal. Which IR phase?**
+A. Eradication
+B. Containment
+C. Detection and analysis
+D. Recovery
+
+**69. Malicious files and persistence related to supplier portal are removed after isolation. Which IR phase?**
+A. Lessons learned
+B. Containment
+C. Eradication
+D. Recovery
+
+**70. Clean systems supporting field-service tablet system are validated and returned to normal production use. Which IR phase?**
+A. Detection and analysis
+B. Recovery
+C. Containment
+D. Preparation
+
+**71. Reservation Engine must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Recovery Time Objective (RTO)
+B. Mean Time To Repair (MTTR)
+C. Recovery Point Objective (RPO)
+D. Maximum Tolerable Downtime (MTD)
+
+**72. Learning Portal backups are scheduled so restored data is never older than a defined time window. Which objective drives this?**
+A. Maximum Tolerable Downtime (MTD)
+B. Recovery Time Objective (RTO)
+C. Recovery Point Objective (RPO)
+D. Mean Time Between Failures (MTBF)
+
+**73. Business owners say procurement workflow outage beyond a hard deadline would cause unacceptable harm. Which term applies?**
+A. Recovery Point Objective (RPO)
+B. Mean Time To Repair (MTTR)
+C. Maximum Tolerable Downtime (MTD)
+D. Recovery Time Objective (RTO)
+
+**74. The team prepares manual workarounds so fraud analytics system business functions can continue during IT recovery. Which plan owns this?**
+A. Business Impact Analysis (BIA)
+B. Business Continuity Plan (BCP)
+C. Disaster Recovery Plan (DRP)
+D. Incident Response Plan (IRP)
+
+**75. The IT runbook documents how to rebuild document management system servers and network dependencies after disaster. Which plan owns this?**
+A. Business Impact Analysis (BIA)
+B. Incident Response Plan (IRP)
+C. Business Continuity Plan (BCP)
+D. Disaster Recovery Plan (DRP)
+
+**76. Suspicious activity affecting mobile banking API is confirmed, scoped, contained, eradicated, and reviewed. Which plan guides that lifecycle?**
+A. Disaster Recovery Plan (DRP)
+B. Business Impact Analysis (BIA)
+C. Business Continuity Plan (BCP)
+D. Incident Response Plan (IRP)
+
+**77. Pos Network is ranked by revenue impact, legal obligations, and customer effect before recovery priorities are chosen. Which activity is this?**
+A. Incident Response Plan (IRP)
+B. Business Continuity Plan (BCP)
+C. Disaster Recovery Plan (DRP)
+D. Business Impact Analysis (BIA)
+
+**78. A compromised host supporting backup repository is disconnected to prevent spread before malware removal. Which IR phase?**
+A. Recovery
+B. Eradication
+C. Detection and analysis
+D. Containment
+
+**79. Malicious files and persistence related to file share are removed after isolation. Which IR phase?**
+A. Lessons learned
+B. Containment
+C. Eradication
+D. Recovery
+
+**80. Clean systems supporting monitoring console are validated and returned to normal production use. Which IR phase?**
+A. Recovery
+B. Preparation
+C. Detection and analysis
+D. Containment
+
+**81. Database Cluster must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Recovery Point Objective (RPO)
+B. Mean Time To Repair (MTTR)
+C. Recovery Time Objective (RTO)
+D. Maximum Tolerable Downtime (MTD)
+
+**82. Dns Service backups are scheduled so restored data is never older than a defined time window. Which objective drives this?**
+A. Mean Time Between Failures (MTBF)
+B. Maximum Tolerable Downtime (MTD)
+C. Recovery Point Objective (RPO)
+D. Recovery Time Objective (RTO)
+
+**83. Business owners say directory service outage beyond a hard deadline would cause unacceptable harm. Which term applies?**
+A. Maximum Tolerable Downtime (MTD)
+B. Recovery Point Objective (RPO)
+C. Mean Time To Repair (MTTR)
+D. Recovery Time Objective (RTO)
+
+**84. The team prepares manual workarounds so virtualization cluster business functions can continue during IT recovery. Which plan owns this?**
+A. Business Continuity Plan (BCP)
+B. Disaster Recovery Plan (DRP)
+C. Business Impact Analysis (BIA)
+D. Incident Response Plan (IRP)
+
+**85. The IT runbook documents how to rebuild cloud workload servers and network dependencies after disaster. Which plan owns this?**
+A. Business Impact Analysis (BIA)
+B. Disaster Recovery Plan (DRP)
+C. Business Continuity Plan (BCP)
+D. Incident Response Plan (IRP)
+
+**86. Suspicious activity affecting network core is confirmed, scoped, contained, eradicated, and reviewed. Which plan guides that lifecycle?**
+A. Business Impact Analysis (BIA)
+B. Incident Response Plan (IRP)
+C. Business Continuity Plan (BCP)
+D. Disaster Recovery Plan (DRP)
+
+**87. E-Commerce Checkout is ranked by revenue impact, legal obligations, and customer effect before recovery priorities are chosen. Which activity is this?**
+A. Incident Response Plan (IRP)
+B. Disaster Recovery Plan (DRP)
+C. Business Continuity Plan (BCP)
+D. Business Impact Analysis (BIA)
+
+**88. A compromised host supporting dispatch system is disconnected to prevent spread before malware removal. Which IR phase?**
+A. Detection and analysis
+B. Containment
+C. Recovery
+D. Eradication
+
+**89. Malicious files and persistence related to claims imaging app are removed after isolation. Which IR phase?**
+A. Recovery
+B. Containment
+C. Eradication
+D. Lessons learned
+
+**90. Clean systems supporting data warehouse are validated and returned to normal production use. Which IR phase?**
+A. Preparation
+B. Detection and analysis
+C. Containment
+D. Recovery
+
+**91. Siem Platform must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Recovery Time Objective (RTO)
+B. Recovery Point Objective (RPO)
+C. Mean Time To Repair (MTTR)
+D. Maximum Tolerable Downtime (MTD)
+
+**92. Remote Access Gateway backups are scheduled so restored data is never older than a defined time window. Which objective drives this?**
+A. Mean Time Between Failures (MTBF)
+B. Recovery Point Objective (RPO)
+C. Maximum Tolerable Downtime (MTD)
+D. Recovery Time Objective (RTO)
+
+**93. Business owners say workforce scheduling tool outage beyond a hard deadline would cause unacceptable harm. Which term applies?**
+A. Maximum Tolerable Downtime (MTD)
+B. Mean Time To Repair (MTTR)
+C. Recovery Point Objective (RPO)
+D. Recovery Time Objective (RTO)
+
+**94. The team prepares manual workarounds so patient portal business functions can continue during IT recovery. Which plan owns this?**
+A. Disaster Recovery Plan (DRP)
+B. Business Impact Analysis (BIA)
+C. Incident Response Plan (IRP)
+D. Business Continuity Plan (BCP)
+
+**95. The IT runbook documents how to rebuild asset management tool servers and network dependencies after disaster. Which plan owns this?**
+A. Business Impact Analysis (BIA)
+B. Business Continuity Plan (BCP)
+C. Disaster Recovery Plan (DRP)
+D. Incident Response Plan (IRP)
+
+**96. Suspicious activity affecting customer notification system is confirmed, scoped, contained, eradicated, and reviewed. Which plan guides that lifecycle?**
+A. Incident Response Plan (IRP)
+B. Disaster Recovery Plan (DRP)
+C. Business Continuity Plan (BCP)
+D. Business Impact Analysis (BIA)
+
+**97. Source-Code Repository is ranked by revenue impact, legal obligations, and customer effect before recovery priorities are chosen. Which activity is this?**
+A. Disaster Recovery Plan (DRP)
+B. Business Continuity Plan (BCP)
+C. Incident Response Plan (IRP)
+D. Business Impact Analysis (BIA)
+
+**98. A compromised host supporting build pipeline is disconnected to prevent spread before malware removal. Which IR phase?**
+A. Containment
+B. Detection and analysis
+C. Recovery
+D. Eradication
+
+**99. Malicious files and persistence related to SaaS tenant are removed after isolation. Which IR phase?**
+A. Recovery
+B. Eradication
+C. Lessons learned
+D. Containment
+
+**100. Clean systems supporting ERP platform are validated and returned to normal production use. Which IR phase?**
+A. Containment
+B. Detection and analysis
+C. Preparation
+D. Recovery
+
+**101. Warehouse Wi-Fi must be restored within a defined number of hours after outage. Which metric is being set?**
+A. Recovery Point Objective (RPO)
+B. Recovery Time Objective (RTO)
+C. Maximum Tolerable Downtime (MTD)
+D. Mean Time To Repair (MTTR)
+
+**102. A business impact workshop finds the payment gateway has the highest revenue dependency. Which answer is BEST?**
+A. Incident Response Plan (IRP)
+B. Disaster Recovery Plan (DRP)
+C. Business Impact Analysis (BIA)
+D. Business Continuity Plan (BCP)
+
+**103. A call center prepares a paper callback list for use if CRM access fails. Which answer is BEST?**
+A. Disaster Recovery Plan (DRP)
+B. Incident Response Plan (IRP)
+C. Business Continuity Plan (BCP)
+D. Business Impact Analysis (BIA)
+
+**104. A recovery runbook restores DNS and directory services at an alternate facility. Which answer is BEST?**
+A. Business Continuity Plan (BCP)
+B. Incident Response Plan (IRP)
+C. Disaster Recovery Plan (DRP)
+D. Business Impact Analysis (BIA)
+
+**105. A ransomware playbook defines who isolates hosts, who contacts legal, and who communicates status. Which answer is BEST?**
+A. Disaster Recovery Plan (DRP)
+B. Business Continuity Plan (BCP)
+C. Business Impact Analysis (BIA)
+D. Incident Response Plan (IRP)
+
+**106. The backup job runs every ten minutes because the business can lose at most ten minutes of orders. Which answer is BEST?**
+A. Recovery Time Objective (RTO)
+B. Maximum Tolerable Downtime (MTD)
+C. Recovery Point Objective (RPO)
+D. Mean Time To Repair (MTTR)
+
+**107. A database must be usable again before the next branch opening time. Which answer is BEST?**
+A. Recovery Time Objective (RTO)
+B. Maximum Tolerable Downtime (MTD)
+C. Mean Time Between Failures (MTBF)
+D. Recovery Point Objective (RPO)
+
+**108. A business process can tolerate outage until the end of the trading day, but not beyond it. Which answer is BEST?**
+A. Recovery Time Objective (RTO)
+B. Mean Time To Repair (MTTR)
+C. Maximum Tolerable Downtime (MTD)
+D. Recovery Point Objective (RPO)
+
+**109. A vendor report measures how long technicians usually need to replace a failed UPS battery. Which answer is BEST?**
+A. Mean Time To Repair (MTTR)
+B. Recovery Point Objective (RPO)
+C. Mean Time Between Failures (MTBF)
+D. Recovery Time Objective (RTO)
+
+**110. A server reliability report estimates average hours between power supply failures. Which answer is BEST?**
+A. Mean Time To Repair (MTTR)
+B. Recovery Time Objective (RTO)
+C. Mean Time Between Failures (MTBF)
+D. Maximum Tolerable Downtime (MTD)
+
+**111. A recovery site has current data and equipment ready for near-immediate processing. Which answer is BEST?**
+A. Warm site
+B. Tape vault
+C. Cold site
+D. Hot site
+
+**112. A recovery site has racks and connectivity but servers need configuration. Which answer is BEST?**
+A. Warm site
+B. Active-active site
+C. Hot site
+D. Cold site
+
+**113. A low-cost recovery facility has power and space but no installed servers. Which answer is BEST?**
+A. Cold site
+B. Active-active site
+C. Hot site
+D. Warm site
+
+**114. A failed primary ISP link automatically fails over to a second provider. Which answer is BEST?**
+A. Data retention
+B. Redundancy
+C. Risk acceptance
+D. Evidence collection
+
+**115. A short power interruption is covered while systems wait for generator transfer. Which answer is BEST?**
+A. Short-term backup power
+B. RPO
+C. Hot site
+D. Longer-term backup power
+
+**116. A generator fuel contract supports a multi-day utility outage. Which answer is BEST?**
+A. MTTR
+B. Warm site
+C. Short-term backup power
+D. Longer-term backup power
+
+**117. A volcanic eruption threatens the data center region. Which answer is BEST?**
+A. Environmental threat
+B. Technology threat
+C. Natural threat
+D. Manmade threat
+
+**118. A water leak from plumbing damages a server rack. Which answer is BEST?**
+A. Manmade threat
+B. Natural threat
+C. Environmental threat
+D. Cyber threat
+
+**119. An attacker intentionally cuts fiber entering the building. Which answer is BEST?**
+A. Manmade threat
+B. Environmental threat
+C. Operational metric
+D. Natural threat
+
+**120. Responders preserve volatile memory before powering down a suspect host. Which answer is BEST?**
+A. Evidence collection
+B. Lessons learned
+C. Risk acceptance
+D. Recovery
+
+
+## Answer Key - Domain 2 - BC DR IR Concepts
+
+| # | Ans | Correct answer | Why |
+|---:|:---:|---|---|
+| 1 | B | Business Continuity Plan (BCP) | BCP maintains business functions. |
+| 2 | A | Disaster Recovery Plan (DRP) | DRP restores IT. |
+| 3 | C | Incident Response Plan (IRP) | IRP handles incidents. |
+| 4 | B | Business Impact Analysis (BIA) | BIA analyzes impact. |
+| 5 | A | Recovery Time Objective (RTO) | RTO is restore time target. |
+| 6 | C | Recovery Point Objective (RPO) | RPO is data loss window. |
+| 7 | A | Maximum Tolerable Downtime (MTD) | MTD is outer downtime limit. |
+| 8 | D | Mean Time To Repair (MTTR) | MTTR is repair duration. |
+| 9 | B | Mean Time Between Failures (MTBF) | MTBF is time between failures. |
+| 10 | D | Hot site | Hot site is most ready. |
+| 11 | C | Warm site | Warm site is partially ready. |
+| 12 | C | Cold site | Cold site is least ready. |
+| 13 | A | Redundancy | Redundancy duplicates components. |
+| 14 | A | Short-term backup power | UPS is short-term. |
+| 15 | C | Longer-term backup power | Generator is longer-term. |
+| 16 | B | Natural threat | Weather is natural. |
+| 17 | D | Environmental threat | HVAC is environmental. |
+| 18 | B | Manmade threat | Human intentional action. |
+| 19 | A | Evidence collection | Collection preserves artifacts. |
+| 20 | D | Chain of custody | Tracks evidence handling. |
+| 21 | D | Preparation | Preparation is pre-incident. |
+| 22 | B | Detection and analysis | Analysis confirms/scope. |
+| 23 | B | Containment | Containment limits spread. |
+| 24 | B | Eradication | Eradication removes cause. |
+| 25 | C | Recovery | Recovery returns service. |
+| 26 | A | Lessons learned | Lessons learned improves. |
+| 27 | D | Full backup | Full copies all selected data. |
+| 28 | A | Incremental backup | Incremental since last backup. |
+| 29 | A | Differential backup | Differential since last full. |
+| 30 | A | Incremental backup | Needs sequence of incrementals. |
+| 31 | C | Differential backup | Full plus latest differential. |
+| 32 | B | Business continuity workaround | Manual process keeps business running. |
+| 33 | D | Disaster recovery procedure | Rebuilding IT is DR. |
+| 34 | C | BCP component | BCP includes communications. |
+| 35 | B | IRP component | IRP defines roles. |
+| 36 | A | RTO | Operational recovery time. |
+| 37 | D | RPO | Data loss window. |
+| 38 | D | MTD | Outer tolerable limit. |
+| 39 | C | Environmental and physical resilience concern | Fire suppression is facility resilience. |
+| 40 | A | Environmental infrastructure | Cooling/airflow issue. |
+| 41 | B | RTO-driven site selection | Recovery time drives site readiness. |
+| 42 | A | RPO-driven backup schedule | Backup frequency supports RPO. |
+| 43 | C | Post-incident improvement | Lessons learned improves response. |
+| 44 | C | Evidence preservation | Legal hold preserves evidence. |
+| 45 | D | Containment before eradication | Containment usually precedes eradication. |
+| 46 | A | BCP testing | Continuity exercise. |
+| 47 | C | DRP testing | DR tests IT restoration. |
+| 48 | A | IRP testing | IR tabletop. |
+| 49 | A | Business continuity dependency analysis | BCP dependencies. |
+| 50 | D | Redundancy | Duplicate provider. |
+| 51 | D | Recovery Time Objective (RTO) | Restore time target. |
+| 52 | A | Recovery Point Objective (RPO) | Acceptable data loss. |
+| 53 | B | Maximum Tolerable Downtime (MTD) | Outer downtime limit. |
+| 54 | C | Business Continuity Plan (BCP) | Continuity of operations. |
+| 55 | D | Disaster Recovery Plan (DRP) | IT restoration. |
+| 56 | C | Incident Response Plan (IRP) | Cyber incident handling. |
+| 57 | B | Business Impact Analysis (BIA) | BIA determines impact and priority. |
+| 58 | A | Containment | Limit damage/spread. |
+| 59 | D | Eradication | Remove root cause. |
+| 60 | D | Recovery | Return to operations. |
+| 61 | B | Recovery Time Objective (RTO) | Restore time target. |
+| 62 | A | Recovery Point Objective (RPO) | Acceptable data loss. |
+| 63 | B | Maximum Tolerable Downtime (MTD) | Outer downtime limit. |
+| 64 | D | Business Continuity Plan (BCP) | Continuity of operations. |
+| 65 | A | Disaster Recovery Plan (DRP) | IT restoration. |
+| 66 | D | Incident Response Plan (IRP) | Cyber incident handling. |
+| 67 | D | Business Impact Analysis (BIA) | BIA determines impact and priority. |
+| 68 | B | Containment | Limit damage/spread. |
+| 69 | C | Eradication | Remove root cause. |
+| 70 | B | Recovery | Return to operations. |
+| 71 | A | Recovery Time Objective (RTO) | Restore time target. |
+| 72 | C | Recovery Point Objective (RPO) | Acceptable data loss. |
+| 73 | C | Maximum Tolerable Downtime (MTD) | Outer downtime limit. |
+| 74 | B | Business Continuity Plan (BCP) | Continuity of operations. |
+| 75 | D | Disaster Recovery Plan (DRP) | IT restoration. |
+| 76 | D | Incident Response Plan (IRP) | Cyber incident handling. |
+| 77 | D | Business Impact Analysis (BIA) | BIA determines impact and priority. |
+| 78 | D | Containment | Limit damage/spread. |
+| 79 | C | Eradication | Remove root cause. |
+| 80 | A | Recovery | Return to operations. |
+| 81 | C | Recovery Time Objective (RTO) | Restore time target. |
+| 82 | C | Recovery Point Objective (RPO) | Acceptable data loss. |
+| 83 | A | Maximum Tolerable Downtime (MTD) | Outer downtime limit. |
+| 84 | A | Business Continuity Plan (BCP) | Continuity of operations. |
+| 85 | B | Disaster Recovery Plan (DRP) | IT restoration. |
+| 86 | B | Incident Response Plan (IRP) | Cyber incident handling. |
+| 87 | D | Business Impact Analysis (BIA) | BIA determines impact and priority. |
+| 88 | B | Containment | Limit damage/spread. |
+| 89 | C | Eradication | Remove root cause. |
+| 90 | D | Recovery | Return to operations. |
+| 91 | A | Recovery Time Objective (RTO) | Restore time target. |
+| 92 | B | Recovery Point Objective (RPO) | Acceptable data loss. |
+| 93 | A | Maximum Tolerable Downtime (MTD) | Outer downtime limit. |
+| 94 | D | Business Continuity Plan (BCP) | Continuity of operations. |
+| 95 | C | Disaster Recovery Plan (DRP) | IT restoration. |
+| 96 | A | Incident Response Plan (IRP) | Cyber incident handling. |
+| 97 | D | Business Impact Analysis (BIA) | BIA determines impact and priority. |
+| 98 | A | Containment | Limit damage/spread. |
+| 99 | B | Eradication | Remove root cause. |
+| 100 | D | Recovery | Return to operations. |
+| 101 | B | Recovery Time Objective (RTO) | Restore time target. |
+| 102 | C | Business Impact Analysis (BIA) | BIA identifies criticality and impact. |
+| 103 | C | Business Continuity Plan (BCP) | Manual workaround keeps operations going. |
+| 104 | C | Disaster Recovery Plan (DRP) | Restoring IT is DR. |
+| 105 | D | Incident Response Plan (IRP) | Incident roles and response belong in IRP. |
+| 106 | C | Recovery Point Objective (RPO) | Acceptable data loss drives RPO. |
+| 107 | A | Recovery Time Objective (RTO) | Return-to-service time is RTO. |
+| 108 | C | Maximum Tolerable Downtime (MTD) | Outer unacceptable downtime is MTD. |
+| 109 | A | Mean Time To Repair (MTTR) | Repair duration is MTTR. |
+| 110 | C | Mean Time Between Failures (MTBF) | Time between failures is MTBF. |
+| 111 | D | Hot site | High readiness is hot site. |
+| 112 | A | Warm site | Partial readiness is warm site. |
+| 113 | A | Cold site | Basic facility only is cold site. |
+| 114 | B | Redundancy | Duplicate components support resilience. |
+| 115 | A | Short-term backup power | UPS covers short gap. |
+| 116 | D | Longer-term backup power | Generator handles longer outages. |
+| 117 | C | Natural threat | Volcano is natural. |
+| 118 | C | Environmental threat | Facility water leak is environmental. |
+| 119 | A | Manmade threat | Intentional human action is manmade. |
+| 120 | A | Evidence collection | Preserving artifacts is evidence collection. |
+
+---
+
+# Domain 3 - Access Controls Concepts
+
+**V3 hard bank: no repeated question stems. Original practice only; not official ISC2 content.**
+
+Choose the BEST answer. Each wrong choice is a plausible CC term.
+
+**1. A teller can create a wire transfer request but a supervisor must release it. Which answer is BEST?**
+A. Role creep
+B. Least privilege
+C. Discretionary access control
+D. Segregation of duties
+
+**2. A developer receives read-only production logs because write access is unnecessary. Which answer is BEST?**
+A. Collusion
+B. Segregation of duties
+C. Least privilege
+D. Role creep
+
+**3. Two finance employees cooperate to bypass dual approval. Which answer is BEST?**
+A. Shoulder surfing
+B. Role creep
+C. Tailgating
+D. Collusion
+
+**4. A folder owner grants another employee access directly. Which answer is BEST?**
+A. Role-based access control (RBAC)
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. Segregation of duties
+
+**5. A classified system uses labels that users cannot override. Which answer is BEST?**
+A. Least privilege
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. Role-based access control (RBAC)
+
+**6. Permissions are bundled as Nurse, Pharmacist, and Billing Clerk. Which answer is BEST?**
+A. Collusion
+B. Mandatory access control (MAC)
+C. Discretionary access control (DAC)
+D. Role-based access control (RBAC)
+
+**7. A transferred employee keeps previous department permissions. Which answer is BEST?**
+A. Access revocation
+B. Least privilege
+C. Role creep
+D. Segregation of duties
+
+**8. A contractor account is disabled when the contract ends. Which answer is BEST?**
+A. Role creep
+B. Collusion
+C. Tailgating
+D. Access revocation
+
+**9. Five engineers share one emergency administrator login. Which answer is BEST?**
+A. Accountability failure
+B. Authentication success
+C. Privacy enhancement
+D. Least privilege success
+
+**10. A password proves the user after a username claim. Which answer is BEST?**
+A. Authorization
+B. Identification
+C. Authentication
+D. Accountability
+
+**11. A user can read a file but cannot delete it. Which answer is BEST?**
+A. Authorization
+B. Identification
+C. Accountability
+D. Authentication
+
+**12. A badge reader grants entry to a room. Which answer is BEST?**
+A. Logical access control
+B. Physical access control
+C. Risk transference
+D. Data classification
+
+**13. A server-room lock stops casual entry. Which answer is BEST?**
+A. Technical corrective control
+B. Administrative detective control
+C. Physical preventive control
+D. Physical detective control
+
+**14. CCTV footage is used after a server-room incident. Which answer is BEST?**
+A. Technical preventive control
+B. Physical detective control
+C. Physical preventive control
+D. Administrative preventive control
+
+**15. A visible guard discourages unauthorized entry attempts. Which answer is BEST?**
+A. Compensating control
+B. Deterrent control
+C. Corrective control
+D. Recovery control
+
+**16. A turnstile permits one badge holder at a time. Which answer is BEST?**
+A. Administrative detective control
+B. Recovery control
+C. Physical detective control
+D. Physical preventive control
+
+**17. A mantrap requires authentication before the second door opens. Which answer is BEST?**
+A. CCTV
+B. Visitor log
+C. Mantrap
+D. Turnstile
+
+**18. A visitor follows an employee through a secured door. Which answer is BEST?**
+A. Vishing
+B. Tailgating
+C. Shoulder surfing
+D. Collusion
+
+**19. A person watches a PIN entered at a keypad. Which answer is BEST?**
+A. Smishing
+B. Tailgating
+C. Shoulder surfing
+D. Collusion
+
+**20. Credit history is listed with fingerprint, iris scan, and voiceprint. Which answer is BEST?**
+A. Iris scan
+B. Fingerprint
+C. Voiceprint
+D. Credit history
+
+**21. Typing rhythm is used as an identity signal. Which answer is BEST?**
+A. Physical biometric
+B. Possession factor
+C. Behavioral biometric
+D. Knowledge factor
+
+**22. A visitor badge expires at the end of the day. Which answer is BEST?**
+A. Mandatory access label
+B. Permanent privileged access
+C. Data retention
+D. Temporary authorized physical access
+
+**23. A forced-door alarm sounds during unauthorized entry. Which answer is BEST?**
+A. Technical preventive control
+B. Administrative preventive control
+C. Physical detective control
+D. Physical preventive control
+
+**24. A background check is required before privileged employment. Which answer is BEST?**
+A. Technical corrective control
+B. Physical detective control
+C. Recovery control
+D. Administrative preventive control
+
+**25. A manager approves their own reimbursement. Which answer is BEST?**
+A. Segregation of duties failure
+B. Access revocation
+C. MAC enforcement
+D. Least privilege enforcement
+
+**26. A quarterly review removes permissions from users who changed jobs. Which answer is BEST?**
+A. Risk transference
+B. Data remanence
+C. Role creep prevention
+D. Tailgating prevention
+
+**27. A badge log records user, door, and time. Which answer is BEST?**
+A. Confidentiality
+B. Data minimization
+C. Accountability
+D. Availability
+
+**28. Biometric scanner placement is based on server-room sensitivity. Which answer is BEST?**
+A. Employee preference
+B. Vendor popularity
+C. Site assessment and area sensitivity
+D. Number of doors only
+
+**29. A guard checks a photo ID against a visitor list. Which answer is BEST?**
+A. Risk appetite
+B. Data labeling
+C. Authorized versus unauthorized personnel
+D. Patch management
+
+**30. A role grants domain admin to interns for convenience. Which answer is BEST?**
+A. Least privilege problem
+B. Tailgating problem
+C. Privacy notice problem
+D. Degaussing problem
+
+**31. A user receives only the access needed for duties in the server room. Which principle is applied?**
+A. Collusion
+B. Least privilege
+C. Segregation of duties
+D. Role creep
+
+**32. The records archive requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. Segregation of duties
+B. DAC
+C. Role creep
+D. Least privilege
+
+**33. Two users coordinate to bypass dual controls in the network closet. Which term fits?**
+A. Tailgating
+B. Collusion
+C. Role creep
+D. Shoulder surfing
+
+**34. The owner of the executive floor resource decides which coworkers can access it. Which access model is closest?**
+A. Mandatory access control (MAC)
+B. NAC
+C. Discretionary access control (DAC)
+D. Role-based access control (RBAC)
+
+**35. Central security labels control access to the research lab, and users cannot change those labels. Which model fits?**
+A. Discretionary access control (DAC)
+B. Role creep
+C. Mandatory access control (MAC)
+D. Role-based access control (RBAC)
+
+**36. Access to the cash office is assigned through job roles instead of individual grants. Which model fits?**
+A. Collusion
+B. Role-based access control (RBAC)
+C. Mandatory access control (MAC)
+D. Discretionary access control (DAC)
+
+**37. Access to the data center cage remains after a worker transfers to a different job. Which issue is shown?**
+A. Shoulder surfing
+B. Least privilege
+C. Role creep
+D. Tailgating
+
+**38. A badge, lock, guard, or mantrap protects the visitor lobby. Which broad control area is involved?**
+A. Risk transference
+B. Data destruction
+C. Physical access control
+D. Logical access control
+
+**39. Logs show who entered the warehouse gate and when. Which concept is supported?**
+A. Accountability
+B. Integrity
+C. Availability
+D. Privacy
+
+**40. A user receives only the access needed for duties in the pharmacy room. Which principle is applied?**
+A. Least privilege
+B. Segregation of duties
+C. Role creep
+D. Collusion
+
+**41. The SOC entrance requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. Segregation of duties
+B. Least privilege
+C. Role creep
+D. DAC
+
+**42. Two users coordinate to bypass dual controls in the backup media vault. Which term fits?**
+A. Role creep
+B. Collusion
+C. Tailgating
+D. Shoulder surfing
+
+**43. The owner of the payroll office resource decides which coworkers can access it. Which access model is closest?**
+A. Mandatory access control (MAC)
+B. NAC
+C. Discretionary access control (DAC)
+D. Role-based access control (RBAC)
+
+**44. Central security labels control access to the legal file room, and users cannot change those labels. Which model fits?**
+A. Mandatory access control (MAC)
+B. Discretionary access control (DAC)
+C. Role creep
+D. Role-based access control (RBAC)
+
+**45. Access to the call-center floor is assigned through job roles instead of individual grants. Which model fits?**
+A. Collusion
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. Role-based access control (RBAC)
+
+**46. Access to the manufacturing control room remains after a worker transfers to a different job. Which issue is shown?**
+A. Role creep
+B. Shoulder surfing
+C. Tailgating
+D. Least privilege
+
+**47. A badge, lock, guard, or mantrap protects the HR records area. Which broad control area is involved?**
+A. Risk transference
+B. Physical access control
+C. Data destruction
+D. Logical access control
+
+**48. Logs show who entered the finance approval system and when. Which concept is supported?**
+A. Privacy
+B. Availability
+C. Integrity
+D. Accountability
+
+**49. A user receives only the access needed for duties in the source-code repository. Which principle is applied?**
+A. Segregation of duties
+B. Role creep
+C. Collusion
+D. Least privilege
+
+**50. The cloud admin console requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. DAC
+B. Role creep
+C. Least privilege
+D. Segregation of duties
+
+**51. Two users coordinate to bypass dual controls in the database console. Which term fits?**
+A. Shoulder surfing
+B. Tailgating
+C. Role creep
+D. Collusion
+
+**52. The owner of the identity portal resource decides which coworkers can access it. Which access model is closest?**
+A. Role-based access control (RBAC)
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. NAC
+
+**53. Central security labels control access to the VPN admin page, and users cannot change those labels. Which model fits?**
+A. Role-based access control (RBAC)
+B. Discretionary access control (DAC)
+C. Role creep
+D. Mandatory access control (MAC)
+
+**54. Access to the ticketing system is assigned through job roles instead of individual grants. Which model fits?**
+A. Role-based access control (RBAC)
+B. Mandatory access control (MAC)
+C. Collusion
+D. Discretionary access control (DAC)
+
+**55. Access to the medical records module remains after a worker transfers to a different job. Which issue is shown?**
+A. Shoulder surfing
+B. Least privilege
+C. Tailgating
+D. Role creep
+
+**56. A badge, lock, guard, or mantrap protects the procurement workflow. Which broad control area is involved?**
+A. Data destruction
+B. Physical access control
+C. Logical access control
+D. Risk transference
+
+**57. Logs show who entered the payment approval app and when. Which concept is supported?**
+A. Integrity
+B. Privacy
+C. Accountability
+D. Availability
+
+**58. A user receives only the access needed for duties in the customer PII folder. Which principle is applied?**
+A. Role creep
+B. Least privilege
+C. Segregation of duties
+D. Collusion
+
+**59. The privileged access vault requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. Segregation of duties
+B. Role creep
+C. DAC
+D. Least privilege
+
+**60. Two users coordinate to bypass dual controls in the audit evidence share. Which term fits?**
+A. Role creep
+B. Shoulder surfing
+C. Collusion
+D. Tailgating
+
+**61. The owner of the training lab resource decides which coworkers can access it. Which access model is closest?**
+A. Discretionary access control (DAC)
+B. Role-based access control (RBAC)
+C. Mandatory access control (MAC)
+D. NAC
+
+**62. Central security labels control access to the branch office door, and users cannot change those labels. Which model fits?**
+A. Mandatory access control (MAC)
+B. Role creep
+C. Role-based access control (RBAC)
+D. Discretionary access control (DAC)
+
+**63. Access to the parking gate is assigned through job roles instead of individual grants. Which model fits?**
+A. Discretionary access control (DAC)
+B. Collusion
+C. Role-based access control (RBAC)
+D. Mandatory access control (MAC)
+
+**64. Access to the shipping dock remains after a worker transfers to a different job. Which issue is shown?**
+A. Least privilege
+B. Shoulder surfing
+C. Role creep
+D. Tailgating
+
+**65. A badge, lock, guard, or mantrap protects the print room. Which broad control area is involved?**
+A. Logical access control
+B. Physical access control
+C. Data destruction
+D. Risk transference
+
+**66. Logs show who entered the boardroom and when. Which concept is supported?**
+A. Accountability
+B. Integrity
+C. Privacy
+D. Availability
+
+**67. A user receives only the access needed for duties in the biometric enrollment station. Which principle is applied?**
+A. Segregation of duties
+B. Least privilege
+C. Role creep
+D. Collusion
+
+**68. The temporary contractor portal requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. DAC
+B. Role creep
+C. Least privilege
+D. Segregation of duties
+
+**69. Two users coordinate to bypass dual controls in the break-glass account. Which term fits?**
+A. Collusion
+B. Shoulder surfing
+C. Role creep
+D. Tailgating
+
+**70. The owner of the wire transfer workflow resource decides which coworkers can access it. Which access model is closest?**
+A. NAC
+B. Role-based access control (RBAC)
+C. Discretionary access control (DAC)
+D. Mandatory access control (MAC)
+
+**71. Central security labels control access to the expense system, and users cannot change those labels. Which model fits?**
+A. Role-based access control (RBAC)
+B. Mandatory access control (MAC)
+C. Role creep
+D. Discretionary access control (DAC)
+
+**72. Access to the vendor master file is assigned through job roles instead of individual grants. Which model fits?**
+A. Role-based access control (RBAC)
+B. Collusion
+C. Discretionary access control (DAC)
+D. Mandatory access control (MAC)
+
+**73. Access to the badge management system remains after a worker transfers to a different job. Which issue is shown?**
+A. Least privilege
+B. Tailgating
+C. Role creep
+D. Shoulder surfing
+
+**74. A badge, lock, guard, or mantrap protects the alarm panel. Which broad control area is involved?**
+A. Logical access control
+B. Physical access control
+C. Risk transference
+D. Data destruction
+
+**75. Logs show who entered the CCTV console and when. Which concept is supported?**
+A. Integrity
+B. Privacy
+C. Accountability
+D. Availability
+
+**76. A user receives only the access needed for duties in the visitor management desk. Which principle is applied?**
+A. Collusion
+B. Role creep
+C. Segregation of duties
+D. Least privilege
+
+**77. The laptop encryption console requires one employee to request and another to approve a sensitive action. Which principle is applied?**
+A. Segregation of duties
+B. Least privilege
+C. Role creep
+D. DAC
+
+**78. Two users coordinate to bypass dual controls in the EHR workstation. Which term fits?**
+A. Shoulder surfing
+B. Collusion
+C. Tailgating
+D. Role creep
+
+**79. The owner of the shared file server resource decides which coworkers can access it. Which access model is closest?**
+A. Mandatory access control (MAC)
+B. Discretionary access control (DAC)
+C. Role-based access control (RBAC)
+D. NAC
+
+**80. Central security labels control access to the admin jump box, and users cannot change those labels. Which model fits?**
+A. Role-based access control (RBAC)
+B. Role creep
+C. Discretionary access control (DAC)
+D. Mandatory access control (MAC)
+
+**81. Access to the building turnstile is assigned through job roles instead of individual grants. Which model fits?**
+A. Collusion
+B. Mandatory access control (MAC)
+C. Role-based access control (RBAC)
+D. Discretionary access control (DAC)
+
+**82. Access to the mantrap vestibule remains after a worker transfers to a different job. Which issue is shown?**
+A. Least privilege
+B. Role creep
+C. Shoulder surfing
+D. Tailgating
+
+**83. A badge, lock, guard, or mantrap protects the restricted elevator. Which broad control area is involved?**
+A. Data destruction
+B. Logical access control
+C. Risk transference
+D. Physical access control
+
+**84. A two-person rule is required before opening a cash vault. Which answer is BEST?**
+A. DAC
+B. Segregation of duties
+C. Role creep
+D. Least privilege
+
+**85. A cleaning vendor badge works only on assigned floors and only after hours. Which answer is BEST?**
+A. MAC
+B. Shoulder surfing
+C. Collusion
+D. Least privilege
+
+**86. A user changes departments and old application roles are not removed. Which answer is BEST?**
+A. DAC
+B. Biometric failure
+C. Tailgating
+D. Role creep
+
+**87. A former employee badge still opens the office after termination. Which answer is BEST?**
+A. Backup failure
+B. Role creep prevention
+C. Access revocation failure
+D. Privacy notice success
+
+**88. A project owner adds a contractor to a folder without central security approval. Which answer is BEST?**
+A. Physical preventive control
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. Role-based access control (RBAC)
+
+**89. Security administrators assign labels and users cannot override file access. Which answer is BEST?**
+A. Tailgating
+B. Role-based access control (RBAC)
+C. Mandatory access control (MAC)
+D. Discretionary access control (DAC)
+
+**90. New nurses automatically receive EHR permissions through a nurse job role. Which answer is BEST?**
+A. Discretionary access control (DAC)
+B. Role-based access control (RBAC)
+C. Collusion
+D. Mandatory access control (MAC)
+
+**91. A motion sensor reports movement in a restricted room after hours. Which answer is BEST?**
+A. Administrative preventive control
+B. Physical detective control
+C. Technical corrective control
+D. Physical preventive control
+
+**92. A locked cage protects switches in a shared telecom closet. Which answer is BEST?**
+A. Physical preventive control
+B. Physical detective control
+C. Administrative detective control
+D. Recovery control
+
+**93. A security guard patrols a lobby and reports suspicious persons. Which answer is BEST?**
+A. Cryptographic preventive control
+B. Data handling control
+C. Physical detective and deterrent control
+D. Administrative recovery control
+
+**94. A badge reader denies entry outside approved hours. Which answer is BEST?**
+A. Authentication only
+B. Risk acceptance
+C. Physical authorization control
+D. Data retention
+
+**95. Visitors are escorted in the data center at all times. Which answer is BEST?**
+A. Configuration management
+B. Physical access control
+C. Patch management
+D. Logical access control
+
+**96. A fingerprint enrollment process verifies government ID before storing a template. Which answer is BEST?**
+A. Risk appetite
+B. Password reuse control
+C. Degaussing
+D. Biometric enrollment control
+
+**97. A biometric false rejection blocks a legitimate employee from entry. Which answer is BEST?**
+A. Confidentiality disclosure
+B. Data remanence
+C. Integrity tampering
+D. Availability/access usability issue
+
+**98. A biometric false acceptance lets an unauthorized person enter. Which answer is BEST?**
+A. Risk transference
+B. Backup issue
+C. Unauthorized access issue
+D. Data retention issue
+
+**99. A door requires both a badge and PIN instead of badge alone. Which answer is BEST?**
+A. Backup recovery
+B. Risk acceptance
+C. Data classification
+D. Stronger authentication
+
+**100. A shared visitor badge is used without recording individual names. Which answer is BEST?**
+A. Availability improvement
+B. Accountability weakness
+C. MAC enforcement
+D. Encryption gap
+
+**101. A user claims an account by entering a username. Which answer is BEST?**
+A. Authentication
+B. Authorization
+C. Accountability
+D. Identification
+
+**102. A user proves the account claim using a one-time token. Which answer is BEST?**
+A. Identification
+B. Authorization
+C. Accountability
+D. Authentication
+
+**103. A system grants report access only to the Payroll role. Which answer is BEST?**
+A. Non-repudiation
+B. Identification
+C. Authorization
+D. Authentication
+
+**104. A log records who accessed a controlled room and when. Which answer is BEST?**
+A. Authentication
+B. Confidentiality
+C. Accountability
+D. Identification
+
+**105. A guard challenges someone without a badge near a restricted entrance. Which answer is BEST?**
+A. Patch management
+B. Physical access control
+C. Data lifecycle
+D. Logical segmentation
+
+**106. A role is designed with broad admin rights for convenience. Which answer is BEST?**
+A. Vishing
+B. Degaussing
+C. Tailgating
+D. Least privilege violation
+
+**107. An access certification campaign asks managers to reapprove user access. Which answer is BEST?**
+A. Incident recovery
+B. Access review
+C. Data destruction
+D. Network routing
+
+**108. Two employees bypass separation by approving each other’s fraudulent requests. Which answer is BEST?**
+A. Tailgating
+B. Collusion
+C. Shoulder surfing
+D. Least privilege
+
+**109. A privacy screen blocks people nearby from reading a laptop display. Which answer is BEST?**
+A. Shoulder surfing reduction
+B. MAC enforcement
+C. Tailgating reduction
+D. Role creep reduction
+
+**110. A bollard stops vehicles from reaching a building entrance. Which answer is BEST?**
+A. Administrative detective control
+B. Physical detective control
+C. Physical preventive control
+D. Technical detective control
+
+**111. Parking-lot lighting discourages suspicious activity near entrances. Which answer is BEST?**
+A. Deterrent physical control
+B. Corrective physical control
+C. Recovery technical control
+D. Compensating administrative control
+
+**112. A receptionist verifies visitor identity before issuing a temporary badge. Which answer is BEST?**
+A. Risk acceptance
+B. Patch management
+C. Visitor access control
+D. Data labeling
+
+**113. An alarm log is reviewed after an attempted forced entry. Which answer is BEST?**
+A. Administrative recovery control
+B. Technical preventive control
+C. Physical preventive control
+D. Physical detective control
+
+**114. A lost badge is immediately disabled in the access system. Which answer is BEST?**
+A. Role creep
+B. Collusion
+C. Least privilege
+D. Access revocation
+
+**115. An account is disabled during employee offboarding. Which answer is BEST?**
+A. Physical monitoring
+B. Access revocation
+C. Access certification
+D. Role creep
+
+**116. An access review finds users with both requestor and approver rights. Which answer is BEST?**
+A. Tailgating issue
+B. Segregation of duties issue
+C. Biometric issue
+D. Data labeling issue
+
+**117. A manager asks for admin rights just in case, without a job requirement. Which answer is BEST?**
+A. DAC success
+B. Least privilege issue
+C. Collusion
+D. Shoulder surfing
+
+**118. A military system enforces no read up based on clearance labels. Which answer is BEST?**
+A. Role creep
+B. Mandatory access control (MAC)
+C. Role-based access control (RBAC)
+D. Discretionary access control (DAC)
+
+**119. A collaboration workspace lets owners add and remove members at their discretion. Which answer is BEST?**
+A. NAC
+B. Discretionary access control (DAC)
+C. Mandatory access control (MAC)
+D. Role-based access control (RBAC)
+
+**120. A database role is granted because the user is in Accounts Payable. Which answer is BEST?**
+A. Role-based access control (RBAC)
+B. Discretionary access control (DAC)
+C. Collusion
+D. Mandatory access control (MAC)
+
+
+## Answer Key - Domain 3 - Access Controls Concepts
+
+| # | Ans | Correct answer | Why |
+|---:|:---:|---|---|
+| 1 | D | Segregation of duties | Split sensitive tasks. |
+| 2 | C | Least privilege | Access limited to need. |
+| 3 | D | Collusion | Cooperation to bypass controls. |
+| 4 | B | Discretionary access control (DAC) | Owner discretion. |
+| 5 | C | Mandatory access control (MAC) | Central labels. |
+| 6 | D | Role-based access control (RBAC) | Permissions by role. |
+| 7 | C | Role creep | Old permissions accumulated. |
+| 8 | D | Access revocation | Remove access. |
+| 9 | A | Accountability failure | No individual traceability. |
+| 10 | C | Authentication | Proves identity. |
+| 11 | A | Authorization | Permission controls action. |
+| 12 | B | Physical access control | Controls physical entry. |
+| 13 | C | Physical preventive control | Prevents physical entry. |
+| 14 | B | Physical detective control | Recording/detection. |
+| 15 | B | Deterrent control | Discourages. |
+| 16 | D | Physical preventive control | Prevents uncontrolled entry. |
+| 17 | C | Mantrap | One-person controlled entry. |
+| 18 | B | Tailgating | Following through door. |
+| 19 | C | Shoulder surfing | Visual credential theft. |
+| 20 | D | Credit history | Not biometric. |
+| 21 | C | Behavioral biometric | Keystroke dynamics. |
+| 22 | D | Temporary authorized physical access | Temporary visitor access. |
+| 23 | C | Physical detective control | Alarm detects. |
+| 24 | D | Administrative preventive control | Administrative preventive. |
+| 25 | A | Segregation of duties failure | Self-approval violates separation. |
+| 26 | C | Role creep prevention | Reviews reduce creep. |
+| 27 | C | Accountability | Traceability. |
+| 28 | C | Site assessment and area sensitivity | Risk-based placement. |
+| 29 | C | Authorized versus unauthorized personnel | Distinguishes authorized people. |
+| 30 | A | Least privilege problem | Excess access. |
+| 31 | B | Least privilege | Need-only access. |
+| 32 | A | Segregation of duties | Task separation. |
+| 33 | B | Collusion | Cooperation to bypass controls. |
+| 34 | C | Discretionary access control (DAC) | Owner decides access. |
+| 35 | C | Mandatory access control (MAC) | Central label enforcement. |
+| 36 | B | Role-based access control (RBAC) | Access by role. |
+| 37 | C | Role creep | Old permissions accumulate. |
+| 38 | C | Physical access control | Controls physical entry. |
+| 39 | A | Accountability | Traceable records. |
+| 40 | A | Least privilege | Need-only access. |
+| 41 | A | Segregation of duties | Task separation. |
+| 42 | B | Collusion | Cooperation to bypass controls. |
+| 43 | C | Discretionary access control (DAC) | Owner decides access. |
+| 44 | A | Mandatory access control (MAC) | Central label enforcement. |
+| 45 | D | Role-based access control (RBAC) | Access by role. |
+| 46 | A | Role creep | Old permissions accumulate. |
+| 47 | B | Physical access control | Controls physical entry. |
+| 48 | D | Accountability | Traceable records. |
+| 49 | D | Least privilege | Need-only access. |
+| 50 | D | Segregation of duties | Task separation. |
+| 51 | D | Collusion | Cooperation to bypass controls. |
+| 52 | B | Discretionary access control (DAC) | Owner decides access. |
+| 53 | D | Mandatory access control (MAC) | Central label enforcement. |
+| 54 | A | Role-based access control (RBAC) | Access by role. |
+| 55 | D | Role creep | Old permissions accumulate. |
+| 56 | B | Physical access control | Controls physical entry. |
+| 57 | C | Accountability | Traceable records. |
+| 58 | B | Least privilege | Need-only access. |
+| 59 | A | Segregation of duties | Task separation. |
+| 60 | C | Collusion | Cooperation to bypass controls. |
+| 61 | A | Discretionary access control (DAC) | Owner decides access. |
+| 62 | A | Mandatory access control (MAC) | Central label enforcement. |
+| 63 | C | Role-based access control (RBAC) | Access by role. |
+| 64 | C | Role creep | Old permissions accumulate. |
+| 65 | B | Physical access control | Controls physical entry. |
+| 66 | A | Accountability | Traceable records. |
+| 67 | B | Least privilege | Need-only access. |
+| 68 | D | Segregation of duties | Task separation. |
+| 69 | A | Collusion | Cooperation to bypass controls. |
+| 70 | C | Discretionary access control (DAC) | Owner decides access. |
+| 71 | B | Mandatory access control (MAC) | Central label enforcement. |
+| 72 | A | Role-based access control (RBAC) | Access by role. |
+| 73 | C | Role creep | Old permissions accumulate. |
+| 74 | B | Physical access control | Controls physical entry. |
+| 75 | C | Accountability | Traceable records. |
+| 76 | D | Least privilege | Need-only access. |
+| 77 | A | Segregation of duties | Task separation. |
+| 78 | B | Collusion | Cooperation to bypass controls. |
+| 79 | B | Discretionary access control (DAC) | Owner decides access. |
+| 80 | D | Mandatory access control (MAC) | Central label enforcement. |
+| 81 | C | Role-based access control (RBAC) | Access by role. |
+| 82 | B | Role creep | Old permissions accumulate. |
+| 83 | D | Physical access control | Controls physical entry. |
+| 84 | B | Segregation of duties | Critical action requires separation. |
+| 85 | D | Least privilege | Access is limited to need. |
+| 86 | D | Role creep | Old permissions accumulate. |
+| 87 | C | Access revocation failure | Access should have been removed. |
+| 88 | B | Discretionary access control (DAC) | Owner discretion indicates DAC. |
+| 89 | C | Mandatory access control (MAC) | Central label enforcement is MAC. |
+| 90 | B | Role-based access control (RBAC) | Access is role-based. |
+| 91 | B | Physical detective control | Motion alarm detects activity. |
+| 92 | A | Physical preventive control | A cage physically prevents access. |
+| 93 | C | Physical detective and deterrent control | Guard can deter and detect. |
+| 94 | C | Physical authorization control | It enforces physical access permissions. |
+| 95 | B | Physical access control | Escorting manages physical entry. |
+| 96 | D | Biometric enrollment control | Enrollment must bind biometric to correct person. |
+| 97 | D | Availability/access usability issue | Authorized access is unavailable. |
+| 98 | C | Unauthorized access issue | Unauthorized person is accepted. |
+| 99 | D | Stronger authentication | Adds a second factor. |
+| 100 | B | Accountability weakness | Shared badge weakens traceability. |
+| 101 | D | Identification | Username claims identity. |
+| 102 | D | Authentication | Token verifies identity. |
+| 103 | C | Authorization | Permission check determines access. |
+| 104 | C | Accountability | Log supports traceability. |
+| 105 | B | Physical access control | Guard enforces authorized personnel. |
+| 106 | D | Least privilege violation | Excess rights violate least privilege. |
+| 107 | B | Access review | Access reviews validate permissions. |
+| 108 | B | Collusion | Cooperation defeats separation. |
+| 109 | A | Shoulder surfing reduction | Prevents visual observation. |
+| 110 | C | Physical preventive control | Bollard physically prevents access. |
+| 111 | A | Deterrent physical control | Lighting deters. |
+| 112 | C | Visitor access control | Visitor identity/authorization is physical access control. |
+| 113 | D | Physical detective control | Alarm log supports detection/investigation. |
+| 114 | D | Access revocation | Lost credential access is removed. |
+| 115 | B | Access revocation | Offboarding removes access. |
+| 116 | B | Segregation of duties issue | Conflicting rights violate SoD. |
+| 117 | B | Least privilege issue | Unneeded admin rights violate least privilege. |
+| 118 | B | Mandatory access control (MAC) | Clearance labels indicate MAC. |
+| 119 | B | Discretionary access control (DAC) | Owner-controlled sharing is DAC. |
+| 120 | A | Role-based access control (RBAC) | Job role drives access. |
+
+---
+
+# Domain 4 - Network Security
+
+**V3 hard bank: no repeated question stems. Original practice only; not official ISC2 content.**
+
+Choose the BEST answer. Each wrong choice is a plausible CC term.
+
+**1. HTTPS works but plain HTTP fails. Which answer is BEST?**
+A. DNS/53
+B. SSH/22
+C. HTTP/80
+D. HTTPS/443
+
+**2. The host can ping an IP but cannot resolve names. Which answer is BEST?**
+A. DHCP/67-68
+B. HTTP/80
+C. NTP/123
+D. DNS/53
+
+**3. Encrypted Linux administration is required. Which answer is BEST?**
+A. HTTPS/443
+B. SSH/22
+C. RDP/3389
+D. Telnet/23
+
+**4. A cleartext remote login service is found. Which answer is BEST?**
+A. HTTPS/443
+B. Telnet/23
+C. LDAPS/636
+D. SSH/22
+
+**5. Windows Remote Desktop is exposed. Which answer is BEST?**
+A. SMB/445
+B. Kerberos/88
+C. SSH/22
+D. RDP/3389
+
+**6. Server clocks drift and logs do not correlate. Which answer is BEST?**
+A. NTP/123
+B. SNMP/161
+C. LDAP/389
+D. DNS/53
+
+**7. Directory queries occur without TLS. Which answer is BEST?**
+A. LDAP/389
+B. Kerberos/88
+C. SMB/445
+D. LDAPS/636
+
+**8. Secure LDAP directory queries are required. Which answer is BEST?**
+A. LDAP/389
+B. LDAPS/636
+C. HTTPS/443
+D. Kerberos/88
+
+**9. Windows file sharing is permitted. Which answer is BEST?**
+A. LDAP/389
+B. IMAP/143
+C. SNMP/161
+D. SMB/445
+
+**10. A mail gateway relays messages to another mail server. Which answer is BEST?**
+A. POP3/110
+B. SMB/445
+C. SMTP/25
+D. IMAP/143
+
+**11. A mail client syncs folders while mail remains on the server. Which answer is BEST?**
+A. SMTP/25
+B. SNMP/161
+C. IMAP/143
+D. POP3/110
+
+**12. A monitoring host polls router interface counters. Which answer is BEST?**
+A. SNMP/161
+B. NTP/123
+C. DNS/53
+D. SNMP Trap/162
+
+**13. A switch sends an unsolicited management alert. Which answer is BEST?**
+A. SNMP/161
+B. NTP/123
+C. LDAP/389
+D. SNMP Trap/162
+
+**14. A laptop automatically receives IP settings. Which answer is BEST?**
+A. NTP/123
+B. DNS/53
+C. DHCP/67-68
+D. LDAP/389
+
+**15. A domain login depends on tickets. Which answer is BEST?**
+A. Kerberos/88
+B. LDAPS/636
+C. LDAP/389
+D. RDP/3389
+
+**16. A secure web portal uses TLS browser traffic. Which answer is BEST?**
+A. LDAP/389
+B. HTTP/80
+C. HTTPS/443
+D. Telnet/23
+
+**17. A basic file transfer service uses control and data channels. Which answer is BEST?**
+A. TFTP/69
+B. SMB/445
+C. SFTP/22
+D. FTP/20-21
+
+**18. Simple unauthenticated file transfer supports network boot. Which answer is BEST?**
+A. FTP/20-21
+B. HTTPS/443
+C. SFTP/22
+D. TFTP/69
+
+**19. Secure file transfer over SSH is required. Which answer is BEST?**
+A. FTP/20-21
+B. SFTP/22
+C. TFTP/69
+D. SMB/445
+
+**20. Bits, cables, and radio signals are discussed. Which answer is BEST?**
+A. OSI Layer 3 Network
+B. OSI Layer 1 Physical
+C. OSI Layer 2 Data Link
+D. OSI Layer 4 Transport
+
+**21. Frames and MAC addresses are discussed. Which answer is BEST?**
+A. OSI Layer 4 Transport
+B. OSI Layer 1 Physical
+C. OSI Layer 3 Network
+D. OSI Layer 2 Data Link
+
+**22. Packets, IP addressing, and routing are discussed. Which answer is BEST?**
+A. OSI Layer 3 Network
+B. OSI Layer 4 Transport
+C. OSI Layer 2 Data Link
+D. OSI Layer 7 Application
+
+**23. Ports, TCP, and UDP are discussed. Which answer is BEST?**
+A. OSI Layer 7 Application
+B. OSI Layer 2 Data Link
+C. OSI Layer 4 Transport
+D. OSI Layer 3 Network
+
+**24. HTTP and DNS functions are discussed at OSI level. Which answer is BEST?**
+A. OSI Layer 3 Network
+B. OSI Layer 7 Application
+C. OSI Layer 4 Transport
+D. OSI Layer 6 Presentation
+
+**25. In TCP/IP, IP belongs here. Which answer is BEST?**
+A. Transport layer
+B. Internet layer
+C. Network Access layer
+D. Application layer
+
+**26. In TCP/IP, Ethernet and Wi-Fi belong closest here. Which answer is BEST?**
+A. Network Access layer
+B. Internet layer
+C. Application layer
+D. Transport layer
+
+**27. A device forwards packets between IP networks. Which answer is BEST?**
+A. Switch
+B. Hub
+C. Router
+D. Firewall
+
+**28. A device forwards frames using MAC tables. Which answer is BEST?**
+A. Router
+B. Switch
+C. Firewall
+D. Hub
+
+**29. A legacy device repeats traffic out all ports. Which answer is BEST?**
+A. Router
+B. Firewall
+C. Switch
+D. Hub
+
+**30. A perimeter device filters traffic by rules. Which answer is BEST?**
+A. Firewall
+B. Router
+C. Switch
+D. Hub
+
+**31. A tool detects suspicious traffic and only alerts. Which answer is BEST?**
+A. Firewall
+B. IDS
+C. NAC
+D. IPS
+
+**32. A tool sits inline and blocks malicious traffic. Which answer is BEST?**
+A. HIDS
+B. IDS
+C. IPS
+D. SIEM
+
+**33. A sensor monitors one server. Which answer is BEST?**
+A. NAC
+B. SIEM
+C. NIDS
+D. HIDS
+
+**34. A sensor monitors network segment traffic. Which answer is BEST?**
+A. HIDS
+B. NIDS
+C. SIEM
+D. CASB
+
+**35. A platform correlates firewall, endpoint, and server logs. Which answer is BEST?**
+A. SOAR
+B. SIEM
+C. NIDS
+D. IDS
+
+**36. A platform launches automated response playbooks. Which answer is BEST?**
+A. SIEM
+B. SOAR
+C. IDS
+D. IPS
+
+**37. A broker enforces policy between users and SaaS apps. Which answer is BEST?**
+A. SOAR
+B. CASB
+C. SIEM
+D. NAC
+
+**38. A device is checked for encryption and patches before joining. Which answer is BEST?**
+A. NTP
+B. NAC
+C. NAT
+D. CASB
+
+**39. Private addresses are translated for internet access. Which answer is BEST?**
+A. NAT
+B. VPN
+C. NAC
+D. VLAN
+
+**40. A public web server is placed between internet and LAN. Which answer is BEST?**
+A. VLAN
+B. DMZ
+C. Microsegmentation
+D. VPN
+
+**41. Guest Wi-Fi is logically separated on shared switches. Which answer is BEST?**
+A. VLAN
+B. NAC
+C. DMZ
+D. VPN
+
+**42. Remote workers use an encrypted tunnel. Which answer is BEST?**
+A. DMZ
+B. VPN
+C. NAT
+D. VLAN
+
+**43. Workloads are isolated at very granular level. Which answer is BEST?**
+A. Microsegmentation
+B. DMZ
+C. VLAN
+D. VPN
+
+**44. Weak IP cameras are isolated from finance systems. Which answer is BEST?**
+A. Flat network
+B. Public DMZ for all devices
+C. IoT segmentation
+D. Domain controller network
+
+**45. Multiple layers protect the same asset. Which answer is BEST?**
+A. Risk acceptance only
+B. Single control dependency
+C. Defense in depth
+D. Flat network design
+
+**46. A service is flooded until users cannot connect. Which answer is BEST?**
+A. DDoS
+B. MITM
+C. Trojan
+D. Side-channel
+
+**47. Malware pretends to be a legitimate installer. Which answer is BEST?**
+A. Virus
+B. Rootkit
+C. Trojan
+D. Worm
+
+**48. Malware spreads itself across hosts. Which answer is BEST?**
+A. Spyware
+B. Virus
+C. Worm
+D. Trojan
+
+**49. Malware attaches to a host file. Which answer is BEST?**
+A. Worm
+B. Botnet
+C. Virus
+D. Trojan
+
+**50. Traffic is intercepted and changed between parties. Which answer is BEST?**
+A. Pharming
+B. DDoS
+C. MITM
+D. Side-channel
+
+**51. Power consumption is analyzed to infer secrets. Which answer is BEST?**
+A. Side-channel attack
+B. DDoS
+C. MITM
+D. Whaling
+
+**52. A text message claims to be a bank credential alert. Which answer is BEST?**
+A. Vishing
+B. Smishing
+C. Whaling
+D. Spear phishing
+
+**53. A phone caller pretends to be IT support. Which answer is BEST?**
+A. Vishing
+B. Pharming
+C. Smishing
+D. Whaling
+
+**54. A phishing message targets the CFO. Which answer is BEST?**
+A. Spear phishing
+B. Whaling
+C. Smishing
+D. Vishing
+
+**55. One password is tried against many usernames. Which answer is BEST?**
+A. Credential stuffing
+B. Brute force
+C. Password spraying
+D. Rainbow table
+
+**56. Leaked username-password pairs are tried on another site. Which answer is BEST?**
+A. Credential stuffing
+B. Brute force
+C. Rainbow table
+D. Password spraying
+
+**57. A vendor provides complete webmail. Which answer is BEST?**
+A. PaaS
+B. SaaS
+C. IaaS
+D. Hybrid cloud
+
+**58. A vendor provides a platform to deploy code. Which answer is BEST?**
+A. MSP
+B. PaaS
+C. SaaS
+D. IaaS
+
+**59. A vendor provides VMs, storage, and networks. Which answer is BEST?**
+A. IaaS
+B. PaaS
+C. SaaS
+D. SLA
+
+**60. Private cloud and public cloud are both used. Which answer is BEST?**
+A. Community cloud only
+B. Hybrid cloud
+C. Private cloud only
+D. Public cloud only
+
+**61. A contract defines uptime and response times. Which answer is BEST?**
+A. MOU/MOA
+B. AUP
+C. SLA
+D. MSP
+
+**62. A provider manages monitoring and security services. Which answer is BEST?**
+A. SLA
+B. MOU/MOA
+C. MSP
+D. CASB
+
+**63. Two organizations document mutual responsibilities. Which answer is BEST?**
+A. NAC
+B. MOU/MOA
+C. SLA
+D. AUP
+
+**64. Cooling failure threatens a server room. Which answer is BEST?**
+A. Logical access control
+B. HVAC/environmental infrastructure
+C. Cryptographic control
+D. Authentication infrastructure
+
+**65. Duplicate circuits and power supplies are installed. Which answer is BEST?**
+A. Redundancy
+B. Data classification
+C. Vishing
+D. Risk appetite
+
+**66. A network uses 128-bit addressing. Which answer is BEST?**
+A. IPv4
+B. IPv6
+C. TCP
+D. UDP
+
+**67. A vulnerability scanner checks systems for known weaknesses. Which answer is BEST?**
+A. NTP sync
+B. SLA
+C. Firewall rule
+D. Scan
+
+**68. Endpoint malware protection detects a malicious file. Which answer is BEST?**
+A. NAT
+B. DMZ
+C. NAC
+D. Antivirus
+
+**69. A firewall enforces separation between DMZ and internal LAN. Which answer is BEST?**
+A. Risk tolerance
+B. Network segmentation
+C. Data remanence
+D. Degaussing
+
+**70. A flat network allows compromised workstation to reach every server. Which answer is BEST?**
+A. Effective microsegmentation
+B. Strong defense in depth
+C. Good NAC
+D. Lack of segmentation
+
+**71. A CASB blocks uploads to unsanctioned cloud storage. Which answer is BEST?**
+A. Cloud access policy enforcement
+B. Layer 2 switching
+C. Data degaussing
+D. Time synchronization
+
+**72. A SIEM alert combines failed VPN logins and endpoint events. Which answer is BEST?**
+A. Packet forwarding
+B. Data labeling
+C. Log correlation
+D. Physical deterrence
+
+**73. A SOAR playbook disables an account after a high-confidence alert. Which answer is BEST?**
+A. Passive detection only
+B. Automated response
+C. Physical access logging
+D. Manual risk acceptance
+
+**74. Traffic for the branch router is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Router
+B. Switch
+C. Hub
+D. Firewall
+
+**75. The access switch forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Switch
+B. Router
+C. Firewall
+D. Hub
+
+**76. The public web server is placed in a semi-trusted public-facing network. Which design term applies?**
+A. DMZ
+B. NAT
+C. VPN
+D. VLAN
+
+**77. The wireless controller requires device health checks before normal network access. Which technology applies?**
+A. NAT
+B. SNMP
+C. NAC
+D. NTP
+
+**78. The mail gateway produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. NIDS
+B. SOAR
+C. IDS
+D. SIEM
+
+**79. The domain controller uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. IPS
+B. SOAR
+C. IDS
+D. SIEM
+
+**80. The VPN concentrator is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. VPN
+B. VLAN
+C. DMZ
+D. CASB
+
+**81. The database subnet is protected by a remote encrypted tunnel over an untrusted network. Which concept is most relevant?**
+A. DMZ
+B. NAT
+C. VPN
+D. VLAN
+
+**82. Traffic for the cloud workload is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Firewall
+B. Router
+C. Switch
+D. Hub
+
+**83. The IoT camera network forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Router
+B. Switch
+C. Firewall
+D. Hub
+
+**84. The guest Wi-Fi is placed in a semi-trusted public-facing network. Which design term applies?**
+A. NAT
+B. DMZ
+C. VPN
+D. VLAN
+
+**85. The payment VLAN requires device health checks before normal network access. Which technology applies?**
+A. SNMP
+B. NTP
+C. NAC
+D. NAT
+
+**86. The server closet produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. IDS
+B. SIEM
+C. NIDS
+D. SOAR
+
+**87. The log collector uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. SIEM
+B. SOAR
+C. IDS
+D. IPS
+
+**88. The NAC appliance is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. DMZ
+B. VLAN
+C. CASB
+D. VPN
+
+**89. The firewall cluster is protected by a remote encrypted tunnel over an untrusted network. Which concept is most relevant?**
+A. VLAN
+B. VPN
+C. DMZ
+D. NAT
+
+**90. Traffic for the application gateway is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Hub
+B. Switch
+C. Router
+D. Firewall
+
+**91. The remote admin host forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Firewall
+B. Hub
+C. Router
+D. Switch
+
+**92. The file server is placed in a semi-trusted public-facing network. Which design term applies?**
+A. VPN
+B. DMZ
+C. VLAN
+D. NAT
+
+**93. The DNS resolver requires device health checks before normal network access. Which technology applies?**
+A. NAT
+B. NTP
+C. NAC
+D. SNMP
+
+**94. The DHCP server produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. NIDS
+B. SOAR
+C. SIEM
+D. IDS
+
+**95. The SIEM collector uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. IPS
+B. SOAR
+C. SIEM
+D. IDS
+
+**96. The SOAR platform is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. CASB
+B. VPN
+C. DMZ
+D. VLAN
+
+**97. The endpoint sensor is protected by a remote encrypted tunnel over an untrusted network. Which concept is most relevant?**
+A. NAT
+B. VPN
+C. VLAN
+D. DMZ
+
+**98. Traffic for the network tap is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Router
+B. Hub
+C. Firewall
+D. Switch
+
+**99. The IDS sensor forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Switch
+B. Router
+C. Firewall
+D. Hub
+
+**100. The IPS sensor is placed in a semi-trusted public-facing network. Which design term applies?**
+A. DMZ
+B. VPN
+C. VLAN
+D. NAT
+
+**101. The cloud storage app requires device health checks before normal network access. Which technology applies?**
+A. NAT
+B. NAC
+C. NTP
+D. SNMP
+
+**102. The SaaS tenant produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. NIDS
+B. SOAR
+C. IDS
+D. SIEM
+
+**103. The PaaS environment uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. SIEM
+B. SOAR
+C. IDS
+D. IPS
+
+**104. The IaaS VPC is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. CASB
+B. VPN
+C. VLAN
+D. DMZ
+
+**105. The hybrid architecture is protected by a remote encrypted tunnel over an untrusted network. Which concept is most relevant?**
+A. DMZ
+B. VPN
+C. VLAN
+D. NAT
+
+**106. Traffic for the data center HVAC is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Firewall
+B. Switch
+C. Router
+D. Hub
+
+**107. The backup circuit forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Switch
+B. Firewall
+C. Hub
+D. Router
+
+**108. The public DMZ is placed in a semi-trusted public-facing network. Which design term applies?**
+A. VLAN
+B. NAT
+C. DMZ
+D. VPN
+
+**109. The microservice tier requires device health checks before normal network access. Which technology applies?**
+A. NAC
+B. NTP
+C. SNMP
+D. NAT
+
+**110. The east-west traffic produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. IDS
+B. SOAR
+C. NIDS
+D. SIEM
+
+**111. The RDP jump host uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. SIEM
+B. IDS
+C. IPS
+D. SOAR
+
+**112. The SSH bastion is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. VPN
+B. VLAN
+C. DMZ
+D. CASB
+
+**113. The SNMP monitor is protected by a remote encrypted tunnel over an untrusted network. Which concept is most relevant?**
+A. VLAN
+B. NAT
+C. DMZ
+D. VPN
+
+**114. Traffic for the Kerberos realm is filtered by source, destination, port, and protocol. Which device/control is most directly involved?**
+A. Router
+B. Hub
+C. Firewall
+D. Switch
+
+**115. The LDAP directory forwards traffic based on MAC address within a LAN. Which device is this?**
+A. Hub
+B. Router
+C. Firewall
+D. Switch
+
+**116. The HTTPS portal is placed in a semi-trusted public-facing network. Which design term applies?**
+A. NAT
+B. DMZ
+C. VLAN
+D. VPN
+
+**117. The HTTP legacy site requires device health checks before normal network access. Which technology applies?**
+A. NTP
+B. NAC
+C. SNMP
+D. NAT
+
+**118. The SMB share produces logs that are collected and correlated with other events. Which platform is most relevant?**
+A. SIEM
+B. IDS
+C. NIDS
+D. SOAR
+
+**119. The NTP server uses automated playbooks to enrich alerts and trigger response. Which platform is most relevant?**
+A. SIEM
+B. IDS
+C. SOAR
+D. IPS
+
+**120. The SFTP server is logically separated from other systems without separate physical switches. Which concept is most relevant?**
+A. DMZ
+B. VPN
+C. CASB
+D. VLAN
+
+
+## Answer Key - Domain 4 - Network Security
+
+| # | Ans | Correct answer | Why |
+|---:|:---:|---|---|
+| 1 | C | HTTP/80 | HTTP uses 80. |
+| 2 | D | DNS/53 | DNS resolves names. |
+| 3 | B | SSH/22 | SSH. |
+| 4 | B | Telnet/23 | Telnet is cleartext. |
+| 5 | D | RDP/3389 | RDP 3389. |
+| 6 | A | NTP/123 | NTP syncs time. |
+| 7 | A | LDAP/389 | LDAP 389. |
+| 8 | B | LDAPS/636 | LDAPS 636. |
+| 9 | D | SMB/445 | SMB 445. |
+| 10 | C | SMTP/25 | SMTP sends mail. |
+| 11 | C | IMAP/143 | IMAP syncs. |
+| 12 | A | SNMP/161 | SNMP queries 161. |
+| 13 | D | SNMP Trap/162 | Traps 162. |
+| 14 | C | DHCP/67-68 | DHCP assigns settings. |
+| 15 | A | Kerberos/88 | Kerberos tickets. |
+| 16 | C | HTTPS/443 | HTTPS 443. |
+| 17 | D | FTP/20-21 | FTP 20/21. |
+| 18 | D | TFTP/69 | TFTP 69. |
+| 19 | B | SFTP/22 | SFTP uses SSH. |
+| 20 | B | OSI Layer 1 Physical | Layer 1. |
+| 21 | D | OSI Layer 2 Data Link | Layer 2. |
+| 22 | A | OSI Layer 3 Network | Layer 3. |
+| 23 | C | OSI Layer 4 Transport | Layer 4. |
+| 24 | B | OSI Layer 7 Application | Layer 7. |
+| 25 | B | Internet layer | Internet layer. |
+| 26 | A | Network Access layer | Network Access. |
+| 27 | C | Router | Router routes. |
+| 28 | B | Switch | Switch frames. |
+| 29 | D | Hub | Hub repeats. |
+| 30 | A | Firewall | Firewall filters. |
+| 31 | B | IDS | IDS detects. |
+| 32 | C | IPS | IPS blocks. |
+| 33 | D | HIDS | HIDS host. |
+| 34 | B | NIDS | NIDS network. |
+| 35 | B | SIEM | SIEM correlates. |
+| 36 | B | SOAR | SOAR automates. |
+| 37 | B | CASB | CASB cloud. |
+| 38 | B | NAC | NAC posture/access. |
+| 39 | A | NAT | NAT translates. |
+| 40 | B | DMZ | DMZ. |
+| 41 | A | VLAN | VLAN. |
+| 42 | B | VPN | VPN. |
+| 43 | A | Microsegmentation | Fine-grained. |
+| 44 | C | IoT segmentation | Segment IoT. |
+| 45 | C | Defense in depth | Layered controls. |
+| 46 | A | DDoS | Availability attack. |
+| 47 | C | Trojan | Disguised malware. |
+| 48 | C | Worm | Self-replicates. |
+| 49 | C | Virus | Attaches to host. |
+| 50 | C | MITM | Interception/change. |
+| 51 | A | Side-channel attack | Indirect leakage. |
+| 52 | B | Smishing | SMS phishing. |
+| 53 | A | Vishing | Voice phishing. |
+| 54 | B | Whaling | Executive target. |
+| 55 | C | Password spraying | One/few passwords across accounts. |
+| 56 | A | Credential stuffing | Reuse breached pairs. |
+| 57 | B | SaaS | Software app. |
+| 58 | B | PaaS | Platform. |
+| 59 | A | IaaS | Infrastructure. |
+| 60 | B | Hybrid cloud | Combination. |
+| 61 | C | SLA | Service levels. |
+| 62 | C | MSP | Managed service. |
+| 63 | B | MOU/MOA | Agreement. |
+| 64 | B | HVAC/environmental infrastructure | HVAC is environmental. |
+| 65 | A | Redundancy | Duplicate components. |
+| 66 | B | IPv6 | IPv6 128-bit. |
+| 67 | D | Scan | Scans find weaknesses. |
+| 68 | D | Antivirus | Antivirus. |
+| 69 | B | Network segmentation | Segmentation. |
+| 70 | D | Lack of segmentation | Flat network risk. |
+| 71 | A | Cloud access policy enforcement | CASB policy. |
+| 72 | C | Log correlation | SIEM correlation. |
+| 73 | B | Automated response | SOAR action. |
+| 74 | D | Firewall | Firewall filters by rules. |
+| 75 | A | Switch | Switch uses MAC table. |
+| 76 | A | DMZ | Public-facing zone. |
+| 77 | C | NAC | Network Access Control. |
+| 78 | D | SIEM | SIEM correlation. |
+| 79 | B | SOAR | SOAR automation. |
+| 80 | B | VLAN | Logical segmentation. |
+| 81 | C | VPN | Encrypted tunnel. |
+| 82 | A | Firewall | Firewall filters by rules. |
+| 83 | B | Switch | Switch uses MAC table. |
+| 84 | B | DMZ | Public-facing zone. |
+| 85 | C | NAC | Network Access Control. |
+| 86 | B | SIEM | SIEM correlation. |
+| 87 | B | SOAR | SOAR automation. |
+| 88 | B | VLAN | Logical segmentation. |
+| 89 | B | VPN | Encrypted tunnel. |
+| 90 | D | Firewall | Firewall filters by rules. |
+| 91 | D | Switch | Switch uses MAC table. |
+| 92 | B | DMZ | Public-facing zone. |
+| 93 | C | NAC | Network Access Control. |
+| 94 | C | SIEM | SIEM correlation. |
+| 95 | B | SOAR | SOAR automation. |
+| 96 | D | VLAN | Logical segmentation. |
+| 97 | B | VPN | Encrypted tunnel. |
+| 98 | C | Firewall | Firewall filters by rules. |
+| 99 | A | Switch | Switch uses MAC table. |
+| 100 | A | DMZ | Public-facing zone. |
+| 101 | B | NAC | Network Access Control. |
+| 102 | D | SIEM | SIEM correlation. |
+| 103 | B | SOAR | SOAR automation. |
+| 104 | C | VLAN | Logical segmentation. |
+| 105 | B | VPN | Encrypted tunnel. |
+| 106 | A | Firewall | Firewall filters by rules. |
+| 107 | A | Switch | Switch uses MAC table. |
+| 108 | C | DMZ | Public-facing zone. |
+| 109 | A | NAC | Network Access Control. |
+| 110 | D | SIEM | SIEM correlation. |
+| 111 | D | SOAR | SOAR automation. |
+| 112 | B | VLAN | Logical segmentation. |
+| 113 | D | VPN | Encrypted tunnel. |
+| 114 | C | Firewall | Firewall filters by rules. |
+| 115 | D | Switch | Switch uses MAC table. |
+| 116 | B | DMZ | Public-facing zone. |
+| 117 | B | NAC | Network Access Control. |
+| 118 | A | SIEM | SIEM correlation. |
+| 119 | C | SOAR | SOAR automation. |
+| 120 | D | VLAN | Logical segmentation. |
+
+---
+
+# Domain 5 - Security Operations
+
+**V3 hard bank: no repeated question stems. Original practice only; not official ISC2 content.**
+
+Choose the BEST answer. Each wrong choice is a plausible CC term.
+
+**1. A file is readable before encryption. Which answer is BEST?**
+A. Salt
+B. Plaintext
+C. Ciphertext
+D. Hash value
+
+**2. An encrypted file is unreadable without decryption. Which answer is BEST?**
+A. Checksum
+B. Ciphertext
+C. Plaintext
+D. Hash value
+
+**3. A digest is compared before and after download. Which answer is BEST?**
+A. Tokenization
+B. Encryption
+C. Compression
+D. Hashing
+
+**4. A stolen laptop drive is unreadable due to protection. Which answer is BEST?**
+A. Labeling
+B. Encryption
+C. Logging
+D. Hashing
+
+**5. One secret key encrypts and decrypts database records. Which answer is BEST?**
+A. Symmetric encryption
+B. Asymmetric encryption
+C. Digital signature
+D. Hashing
+
+**6. A public/private key pair is used. Which answer is BEST?**
+A. Asymmetric encryption
+B. Overwriting
+C. Hashing
+D. Symmetric encryption
+
+**7. Data is encrypted specifically for Maria using public-key crypto. Which answer is BEST?**
+A. Maria private key
+B. Sender public key
+C. Maria public key
+D. Sender private key
+
+**8. Maria opens data encrypted for her. Which answer is BEST?**
+A. Maria private key
+B. Sender private key
+C. Sender public key
+D. Maria public key
+
+**9. A sender signs a document. Which answer is BEST?**
+A. Recipient public key
+B. Sender private key
+C. Sender public key
+D. Recipient private key
+
+**10. A recipient verifies the sender signature. Which answer is BEST?**
+A. Recipient private key
+B. Sender public key
+C. Sender private key
+D. Recipient public key
+
+**11. A signed file proves origin and detects modification. Which answer is BEST?**
+A. Symmetric encryption
+B. Data labeling
+C. Degaussing
+D. Digital signature
+
+**12. A downloaded ISO hash differs from vendor hash. Which answer is BEST?**
+A. Integrity concern
+B. Confidentiality assurance
+C. Retention success
+D. Availability assurance
+
+**13. A data owner assigns Restricted based on sensitivity. Which answer is BEST?**
+A. Retention
+B. Classification
+C. Labeling
+D. Destruction
+
+**14. A report header displays Restricted. Which answer is BEST?**
+A. Labeling
+B. Classification
+C. Encryption
+D. Retention
+
+**15. Invoices must be kept seven years. Which answer is BEST?**
+A. Data destruction
+B. Data remanence
+C. Data retention
+D. Data minimization
+
+**16. A deleted file is recoverable from disk. Which answer is BEST?**
+A. Data remanence
+B. Data retention
+C. Data minimization
+D. Data labeling
+
+**17. A disk is sanitized by writing random patterns. Which answer is BEST?**
+A. Shredding
+B. Crypto-shredding
+C. Degaussing
+D. Overwriting
+
+**18. A magnetic tape is erased with a strong magnetic field. Which answer is BEST?**
+A. Tokenization
+B. Overwriting
+C. Degaussing
+D. Crypto-shredding
+
+**19. Encrypted cloud backups are made unrecoverable by destroying keys. Which answer is BEST?**
+A. Crypto-shredding
+B. Degaussing
+C. Overwriting
+D. Key escrow
+
+**20. Paper HR files are destroyed with a cross-cut shredder. Which answer is BEST?**
+A. Shredding
+B. Crypto-shredding
+C. Overwriting
+D. Degaussing
+
+**21. A form collects only necessary personal data. Which answer is BEST?**
+A. Data remanence
+B. Data labeling
+C. Data retention
+D. Data minimization
+
+**22. Data is created, stored, used, shared, archived, then destroyed. Which answer is BEST?**
+A. Incident response lifecycle
+B. Data lifecycle
+C. Risk register
+D. OSI model
+
+**23. A policy defines storage, transmission, retention, and destruction by sensitivity. Which answer is BEST?**
+A. Password policy
+B. Change management policy
+C. AUP
+D. Data handling policy
+
+**24. Unused services and default accounts are removed. Which answer is BEST?**
+A. Change management
+B. Hardening
+C. Patch management
+D. Configuration management
+
+**25. A secure build document defines minimum server settings. Which answer is BEST?**
+A. Log source
+B. Patch
+C. Baseline
+D. Rollback plan
+
+**26. Updates are tested, approved, deployed, and verified. Which answer is BEST?**
+A. Configuration management
+B. Change management
+C. Patch management
+D. Hardening
+
+**27. Approved settings are tracked and drift is corrected. Which answer is BEST?**
+A. Hardening
+B. Configuration management
+C. Patch management
+D. Change management
+
+**28. A firewall change requires request, approval, testing, record, and fallback. Which answer is BEST?**
+A. Hardening
+B. Patch management
+C. Change management
+D. Configuration management
+
+**29. A change plan returns to previous version if deployment fails. Which answer is BEST?**
+A. Patch
+B. Rollback plan
+C. Log retention
+D. Baseline
+
+**30. Security events from servers and apps are centrally recorded and reviewed. Which answer is BEST?**
+A. Hardening
+B. Logging and monitoring
+C. Patch management
+D. Data handling
+
+**31. Failed login logs reveal possible credential attacks. Which answer is BEST?**
+A. Logging and monitoring
+B. Data classification
+C. Data destruction
+D. Crypto-shredding
+
+**32. A patch is installed in production with no testing or fallback. Which answer is BEST?**
+A. Strong retention
+B. Risk transference
+C. Strong data classification
+D. Weak change management
+
+**33. Router settings are compared against an approved configuration. Which answer is BEST?**
+A. Data labeling
+B. Patch management
+C. Privacy policy
+D. Configuration management
+
+**34. A policy defines acceptable and prohibited use of company systems. Which answer is BEST?**
+A. Privacy policy
+B. BYOD policy
+C. Acceptable Use Policy (AUP)
+D. Password policy
+
+**35. A policy defines personal phone requirements for work email. Which answer is BEST?**
+A. BYOD policy
+B. Change management policy
+C. Password policy
+D. AUP
+
+**36. A policy defines length, reuse, lockout, and MFA. Which answer is BEST?**
+A. Data handling policy
+B. Privacy policy
+C. AUP
+D. Password policy
+
+**37. A policy explains personal data collection, processing, sharing, and protection. Which answer is BEST?**
+A. Privacy policy
+B. Password policy
+C. AUP
+D. Change management policy
+
+**38. A policy requires production changes to be documented, approved, tested, and reversible. Which answer is BEST?**
+A. Password policy
+B. Change management policy
+C. Privacy policy
+D. AUP
+
+**39. Training teaches phishing recognition and reporting. Which answer is BEST?**
+A. Configuration management
+B. Patch management
+C. Security awareness training
+D. Data destruction
+
+**40. Training says not to share passwords or approve unexpected MFA prompts. Which answer is BEST?**
+A. Data labeling
+B. Hot site training
+C. Password protection training
+D. Data retention
+
+**41. A suspicious email is reported because it uses urgency and credential requests. Which answer is BEST?**
+A. Encryption
+B. Degaussing
+C. Rollback plan
+D. Security awareness training
+
+**42. A baseline disables local admin accounts. Which answer is BEST?**
+A. Risk appetite
+B. Incident response phase
+C. System hardening baseline
+D. Data retention schedule
+
+**43. A server is rebuilt from a documented secure image. Which answer is BEST?**
+A. Vishing prevention
+B. RPO setting
+C. Baseline implementation
+D. Data labeling
+
+**44. A patch remediates a known OS vulnerability. Which answer is BEST?**
+A. Data destruction
+B. Patch management
+C. Privacy policy
+D. AUP
+
+**45. A change advisory board approves a database modification. Which answer is BEST?**
+A. Patch management only
+B. Change management
+C. Degaussing
+D. Data minimization
+
+**46. A failed deployment is reversed to stable configuration. Which answer is BEST?**
+A. Data retention
+B. Baseline creation
+C. Hashing
+D. Rollback
+
+**47. Log review identifies repeated failed VPN attempts. Which answer is BEST?**
+A. Data classification
+B. Security event monitoring
+C. Crypto-shredding
+D. BYOD enrollment
+
+**48. Logs are kept long enough to support investigations. Which answer is BEST?**
+A. Log retention
+B. Degaussing
+C. Data minimization only
+D. Encryption key use
+
+**49. A BYOD policy requires screen lock, encryption, and remote wipe. Which answer is BEST?**
+A. Disaster recovery objective
+B. Degaussing method
+C. AUP browsing limit only
+D. BYOD security requirement
+
+**50. An AUP prohibits unauthorized software installation. Which answer is BEST?**
+A. Data lifecycle phase
+B. Acceptable use requirement
+C. Chain of custody
+D. Password rotation only
+
+**51. Restricted files must be encrypted before email transmission. Which answer is BEST?**
+A. Data handling requirement
+B. Rollback plan
+C. BYOD enrollment
+D. AUP statement only
+
+**52. A module teaches phishing, smishing, and vishing clues. Which answer is BEST?**
+A. Security awareness training
+B. Configuration baseline
+C. Data retention
+D. Patch management
+
+**53. Passwords are stored as salted hashes, not plaintext. Which answer is BEST?**
+A. Degaussing
+B. Encryption for routing
+C. Hashing for password protection
+D. Data labeling
+
+**54. The original value must be recovered later, so a hash is not suitable. Which answer is BEST?**
+A. Encryption is one-way
+B. Degaussing is reversible
+C. Hashing is one-way
+D. Labeling is reversible
+
+**55. A proper key can recover encrypted data. Which answer is BEST?**
+A. Shredding preserves access
+B. Degaussing preserves access
+C. Encryption is reversible
+D. Hashing is reversible
+
+**56. A symmetric key is exposed, so encrypted files may be readable. Which answer is BEST?**
+A. Availability control
+B. Symmetric key confidentiality
+C. Public key distribution
+D. Data labeling
+
+**57. A public key is distributed widely for encryption or signature verification. Which answer is BEST?**
+A. Degaussing
+B. Public key use
+C. Password reuse
+D. Private key sharing
+
+**58. A private key is protected because it signs and decrypts. Which answer is BEST?**
+A. Data classification
+B. Private key protection
+C. AUP enforcement
+D. Public key publication
+
+**59. A signature verification fails after message alteration. Which answer is BEST?**
+A. Integrity failure detected
+B. Availability restored
+C. Retention success
+D. Confidentiality guaranteed
+
+**60. Residual data on reused storage exposes old records. Which answer is BEST?**
+A. Data remanence
+B. Data retention
+C. Data labeling
+D. Data minimization
+
+**61. A retention schedule says expired logs must be disposed securely. Which answer is BEST?**
+A. Retention and destruction
+B. RTO and RPO
+C. VLAN and VPN
+D. Authentication and authorization
+
+**62. A scheme uses Public, Internal, Confidential, Restricted. Which answer is BEST?**
+A. Data classification
+B. Data labeling
+C. Data minimization
+D. Data remanence
+
+**63. A watermark displays Internal Use Only. Which answer is BEST?**
+A. Data classification
+B. Data labeling
+C. Data retention
+D. Data minimization
+
+**64. A company stores less PII to reduce breach impact. Which answer is BEST?**
+A. Data retention
+B. Data labeling
+C. Data minimization
+D. Data remanence
+
+**65. The laptop fleet is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Hardening
+B. Change management
+C. Data retention
+D. Patch management
+
+**66. The database cluster is compared against an approved secure configuration. Which process is most relevant?**
+A. Change management
+B. Configuration management
+C. Data minimization
+D. Patch management
+
+**67. The cloud backup set update is tested, approved, deployed, and verified. Which process is most relevant?**
+A. Data destruction
+B. Configuration management
+C. Patch management
+D. Privacy policy
+
+**68. The HR paper archive must be securely destroyed at end of life. Which broad concept is most relevant?**
+A. Data labeling
+B. Data minimization
+C. Data destruction
+D. Data retention
+
+**69. The payment application keeps only information required for the business purpose. Which principle is most relevant?**
+A. Data minimization
+B. Data retention
+C. Data remanence
+D. Data labeling
+
+**70. The VPN gateway has centralized events reviewed for suspicious activity. Which concept is most relevant?**
+A. Logging and monitoring
+B. Data destruction
+C. AUP
+D. Hardening
+
+**71. The Linux server build is marked Confidential in its header and footer. Which term is most precise?**
+A. Retention
+B. Labeling
+C. Classification
+D. Encryption
+
+**72. The Windows workstation image is assigned a sensitivity level before handling rules are applied. Which term is most precise?**
+A. Classification
+B. Retention
+C. Degaussing
+D. Labeling
+
+**73. The router configuration must be kept for a defined legal period. Which concept is most relevant?**
+A. Data destruction
+B. Data labeling
+C. Data retention
+D. Data remanence
+
+**74. The firewall rulebase change includes request, approval, test evidence, implementation record, and rollback. Which policy/process applies?**
+A. Patch management only
+B. Change management
+C. Security awareness
+D. Data handling
+
+**75. The mobile BYOD enrollment is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Hardening
+B. Data retention
+C. Patch management
+D. Change management
+
+**76. The customer PII form is compared against an approved secure configuration. Which process is most relevant?**
+A. Configuration management
+B. Change management
+C. Patch management
+D. Data minimization
+
+**77. The log archive update is tested, approved, deployed, and verified. Which process is most relevant?**
+A. Configuration management
+B. Privacy policy
+C. Patch management
+D. Data destruction
+
+**78. The source-code repository must be securely destroyed at end of life. Which broad concept is most relevant?**
+A. Data labeling
+B. Data minimization
+C. Data destruction
+D. Data retention
+
+**79. The privileged access vault keeps only information required for the business purpose. Which principle is most relevant?**
+A. Data labeling
+B. Data remanence
+C. Data retention
+D. Data minimization
+
+**80. The SaaS tenant has centralized events reviewed for suspicious activity. Which concept is most relevant?**
+A. Hardening
+B. AUP
+C. Data destruction
+D. Logging and monitoring
+
+**81. The email platform is marked Confidential in its header and footer. Which term is most precise?**
+A. Retention
+B. Classification
+C. Labeling
+D. Encryption
+
+**82. The SIEM log source is assigned a sensitivity level before handling rules are applied. Which term is most precise?**
+A. Retention
+B. Labeling
+C. Degaussing
+D. Classification
+
+**83. The endpoint agent must be kept for a defined legal period. Which concept is most relevant?**
+A. Data retention
+B. Data destruction
+C. Data remanence
+D. Data labeling
+
+**84. The file share change includes request, approval, test evidence, implementation record, and rollback. Which policy/process applies?**
+A. Patch management only
+B. Security awareness
+C. Change management
+D. Data handling
+
+**85. The confidential report is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Hardening
+B. Patch management
+C. Change management
+D. Data retention
+
+**86. The incident evidence folder is compared against an approved secure configuration. Which process is most relevant?**
+A. Change management
+B. Configuration management
+C. Data minimization
+D. Patch management
+
+**87. The backup tape update is tested, approved, deployed, and verified. Which process is most relevant?**
+A. Patch management
+B. Privacy policy
+C. Data destruction
+D. Configuration management
+
+**88. The SSD disposal project must be securely destroyed at end of life. Which broad concept is most relevant?**
+A. Data retention
+B. Data destruction
+C. Data minimization
+D. Data labeling
+
+**89. The API key store keeps only information required for the business purpose. Which principle is most relevant?**
+A. Data labeling
+B. Data retention
+C. Data remanence
+D. Data minimization
+
+**90. The password database has centralized events reviewed for suspicious activity. Which concept is most relevant?**
+A. Data destruction
+B. AUP
+C. Hardening
+D. Logging and monitoring
+
+**91. The training portal is marked Confidential in its header and footer. Which term is most precise?**
+A. Labeling
+B. Classification
+C. Encryption
+D. Retention
+
+**92. The change request ticket is assigned a sensitivity level before handling rules are applied. Which term is most precise?**
+A. Retention
+B. Degaussing
+C. Classification
+D. Labeling
+
+**93. The patch deployment wave must be kept for a defined legal period. Which concept is most relevant?**
+A. Data labeling
+B. Data remanence
+C. Data destruction
+D. Data retention
+
+**94. The baseline drift report change includes request, approval, test evidence, implementation record, and rollback. Which policy/process applies?**
+A. Security awareness
+B. Change management
+C. Data handling
+D. Patch management only
+
+**95. The privacy notice is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Change management
+B. Data retention
+C. Patch management
+D. Hardening
+
+**96. The data handling standard is compared against an approved secure configuration. Which process is most relevant?**
+A. Data minimization
+B. Patch management
+C. Configuration management
+D. Change management
+
+**97. The AUP acknowledgement update is tested, approved, deployed, and verified. Which process is most relevant?**
+A. Privacy policy
+B. Configuration management
+C. Patch management
+D. Data destruction
+
+**98. The BYOD device must be securely destroyed at end of life. Which broad concept is most relevant?**
+A. Data retention
+B. Data destruction
+C. Data minimization
+D. Data labeling
+
+**99. The phishing simulation keeps only information required for the business purpose. Which principle is most relevant?**
+A. Data labeling
+B. Data retention
+C. Data remanence
+D. Data minimization
+
+**100. The MFA prompt has centralized events reviewed for suspicious activity. Which concept is most relevant?**
+A. Logging and monitoring
+B. Data destruction
+C. AUP
+D. Hardening
+
+**101. The failed login dashboard is marked Confidential in its header and footer. Which term is most precise?**
+A. Classification
+B. Labeling
+C. Retention
+D. Encryption
+
+**102. The cloud storage bucket is assigned a sensitivity level before handling rules are applied. Which term is most precise?**
+A. Retention
+B. Classification
+C. Degaussing
+D. Labeling
+
+**103. The encrypted volume must be kept for a defined legal period. Which concept is most relevant?**
+A. Data remanence
+B. Data labeling
+C. Data retention
+D. Data destruction
+
+**104. The public key certificate change includes request, approval, test evidence, implementation record, and rollback. Which policy/process applies?**
+A. Data handling
+B. Security awareness
+C. Change management
+D. Patch management only
+
+**105. The private key file is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Change management
+B. Hardening
+C. Patch management
+D. Data retention
+
+**106. The digital signature is compared against an approved secure configuration. Which process is most relevant?**
+A. Patch management
+B. Configuration management
+C. Data minimization
+D. Change management
+
+**107. The hash manifest update is tested, approved, deployed, and verified. Which process is most relevant?**
+A. Data destruction
+B. Configuration management
+C. Patch management
+D. Privacy policy
+
+**108. The classification label must be securely destroyed at end of life. Which broad concept is most relevant?**
+A. Data labeling
+B. Data retention
+C. Data minimization
+D. Data destruction
+
+**109. The retention schedule keeps only information required for the business purpose. Which principle is most relevant?**
+A. Data minimization
+B. Data labeling
+C. Data remanence
+D. Data retention
+
+**110. The rollback package has centralized events reviewed for suspicious activity. Which concept is most relevant?**
+A. Data destruction
+B. AUP
+C. Logging and monitoring
+D. Hardening
+
+**111. The configuration baseline is marked Confidential in its header and footer. Which term is most precise?**
+A. Retention
+B. Classification
+C. Labeling
+D. Encryption
+
+**112. The hardening checklist is assigned a sensitivity level before handling rules are applied. Which term is most precise?**
+A. Degaussing
+B. Labeling
+C. Classification
+D. Retention
+
+**113. The security event log must be kept for a defined legal period. Which concept is most relevant?**
+A. Data retention
+B. Data labeling
+C. Data destruction
+D. Data remanence
+
+**114. The social engineering lesson change includes request, approval, test evidence, implementation record, and rollback. Which policy/process applies?**
+A. Security awareness
+B. Change management
+C. Data handling
+D. Patch management only
+
+**115. The password policy exception is protected by disabling unnecessary services and removing defaults. Which process is most relevant?**
+A. Hardening
+B. Data retention
+C. Patch management
+D. Change management
+
+**116. The production release is compared against an approved secure configuration. Which process is most relevant?**
+A. Data minimization
+B. Change management
+C. Patch management
+D. Configuration management
+
+**117. A user downloads a vendor installer and validates its SHA-256 value before installation. Which answer is BEST?**
+A. Encryption
+B. Labeling
+C. Hashing
+D. Degaussing
+
+**118. A database column must be unreadable to anyone without the proper key. Which answer is BEST?**
+A. Labeling
+B. Retention
+C. Hashing
+D. Encryption
+
+**119. A retired encrypted backup set is made unrecoverable by deleting key material. Which answer is BEST?**
+A. Data labeling
+B. Degaussing
+C. Overwriting
+D. Crypto-shredding
+
+**120. A change ticket is rejected because it lacks a documented backout procedure. Which answer is BEST?**
+A. Privacy policy
+B. Change management policy
+C. Data classification
+D. Password policy
+
+
+## Answer Key - Domain 5 - Security Operations
+
+| # | Ans | Correct answer | Why |
+|---:|:---:|---|---|
+| 1 | B | Plaintext | Readable original data. |
+| 2 | B | Ciphertext | Encrypted output. |
+| 3 | D | Hashing | Integrity check. |
+| 4 | B | Encryption | Confidentiality. |
+| 5 | A | Symmetric encryption | Same key. |
+| 6 | A | Asymmetric encryption | Key pair. |
+| 7 | C | Maria public key | Encrypt to recipient public key. |
+| 8 | A | Maria private key | Decrypt with recipient private key. |
+| 9 | B | Sender private key | Private key signs. |
+| 10 | B | Sender public key | Public key verifies. |
+| 11 | D | Digital signature | Signature supports auth/integrity/nonrepudiation. |
+| 12 | A | Integrity concern | Hash mismatch. |
+| 13 | B | Classification | Assign sensitivity. |
+| 14 | A | Labeling | Marking data. |
+| 15 | C | Data retention | How long kept. |
+| 16 | A | Data remanence | Leftover data. |
+| 17 | D | Overwriting | Writes patterns. |
+| 18 | C | Degaussing | Magnetic erase. |
+| 19 | A | Crypto-shredding | Destroy keys. |
+| 20 | A | Shredding | Paper destruction. |
+| 21 | D | Data minimization | Collect less. |
+| 22 | B | Data lifecycle | Lifecycle stages. |
+| 23 | D | Data handling policy | Data handling. |
+| 24 | B | Hardening | Reduce attack surface. |
+| 25 | C | Baseline | Secure reference. |
+| 26 | C | Patch management | Update process. |
+| 27 | B | Configuration management | Maintain configuration. |
+| 28 | C | Change management | Production change control. |
+| 29 | B | Rollback plan | Backout plan. |
+| 30 | B | Logging and monitoring | Event review. |
+| 31 | A | Logging and monitoring | Logs detect events. |
+| 32 | D | Weak change management | Poor change control. |
+| 33 | D | Configuration management | Detect drift. |
+| 34 | C | Acceptable Use Policy (AUP) | AUP. |
+| 35 | A | BYOD policy | Personal devices. |
+| 36 | D | Password policy | Credentials. |
+| 37 | A | Privacy policy | Personal data. |
+| 38 | B | Change management policy | Change rules. |
+| 39 | C | Security awareness training | Awareness. |
+| 40 | C | Password protection training | Password awareness. |
+| 41 | D | Security awareness training | Awareness detects social engineering. |
+| 42 | C | System hardening baseline | Secure settings. |
+| 43 | C | Baseline implementation | Apply baseline. |
+| 44 | B | Patch management | Patch process. |
+| 45 | B | Change management | Change approval. |
+| 46 | D | Rollback | Return to prior state. |
+| 47 | B | Security event monitoring | Monitoring detects. |
+| 48 | A | Log retention | Retention for logs. |
+| 49 | D | BYOD security requirement | BYOD controls. |
+| 50 | B | Acceptable use requirement | AUP. |
+| 51 | A | Data handling requirement | Handling by sensitivity. |
+| 52 | A | Security awareness training | Social engineering awareness. |
+| 53 | C | Hashing for password protection | Password hashes. |
+| 54 | C | Hashing is one-way | Hashes cannot be decrypted. |
+| 55 | C | Encryption is reversible | Encryption with key is reversible. |
+| 56 | B | Symmetric key confidentiality | Shared secret exposure. |
+| 57 | B | Public key use | Public key can be shared. |
+| 58 | B | Private key protection | Private key secrecy. |
+| 59 | A | Integrity failure detected | Signature detects change. |
+| 60 | A | Data remanence | Leftover data. |
+| 61 | A | Retention and destruction | Keep then dispose. |
+| 62 | A | Data classification | Categories. |
+| 63 | B | Data labeling | Visible label. |
+| 64 | C | Data minimization | Less data. |
+| 65 | A | Hardening | Reduce attack surface. |
+| 66 | B | Configuration management | Detect/maintain configuration. |
+| 67 | C | Patch management | Update process. |
+| 68 | C | Data destruction | Secure disposal. |
+| 69 | A | Data minimization | Collect/store less. |
+| 70 | A | Logging and monitoring | Event review. |
+| 71 | B | Labeling | Marking classification. |
+| 72 | A | Classification | Assign sensitivity. |
+| 73 | C | Data retention | Keep for required period. |
+| 74 | B | Change management | Formal change process. |
+| 75 | A | Hardening | Reduce attack surface. |
+| 76 | A | Configuration management | Detect/maintain configuration. |
+| 77 | C | Patch management | Update process. |
+| 78 | C | Data destruction | Secure disposal. |
+| 79 | D | Data minimization | Collect/store less. |
+| 80 | D | Logging and monitoring | Event review. |
+| 81 | C | Labeling | Marking classification. |
+| 82 | D | Classification | Assign sensitivity. |
+| 83 | A | Data retention | Keep for required period. |
+| 84 | C | Change management | Formal change process. |
+| 85 | A | Hardening | Reduce attack surface. |
+| 86 | B | Configuration management | Detect/maintain configuration. |
+| 87 | A | Patch management | Update process. |
+| 88 | B | Data destruction | Secure disposal. |
+| 89 | D | Data minimization | Collect/store less. |
+| 90 | D | Logging and monitoring | Event review. |
+| 91 | A | Labeling | Marking classification. |
+| 92 | C | Classification | Assign sensitivity. |
+| 93 | D | Data retention | Keep for required period. |
+| 94 | B | Change management | Formal change process. |
+| 95 | D | Hardening | Reduce attack surface. |
+| 96 | C | Configuration management | Detect/maintain configuration. |
+| 97 | C | Patch management | Update process. |
+| 98 | B | Data destruction | Secure disposal. |
+| 99 | D | Data minimization | Collect/store less. |
+| 100 | A | Logging and monitoring | Event review. |
+| 101 | B | Labeling | Marking classification. |
+| 102 | B | Classification | Assign sensitivity. |
+| 103 | C | Data retention | Keep for required period. |
+| 104 | C | Change management | Formal change process. |
+| 105 | B | Hardening | Reduce attack surface. |
+| 106 | B | Configuration management | Detect/maintain configuration. |
+| 107 | C | Patch management | Update process. |
+| 108 | D | Data destruction | Secure disposal. |
+| 109 | A | Data minimization | Collect/store less. |
+| 110 | C | Logging and monitoring | Event review. |
+| 111 | C | Labeling | Marking classification. |
+| 112 | C | Classification | Assign sensitivity. |
+| 113 | A | Data retention | Keep for required period. |
+| 114 | B | Change management | Formal change process. |
+| 115 | A | Hardening | Reduce attack surface. |
+| 116 | D | Configuration management | Detect/maintain configuration. |
+| 117 | C | Hashing | Hashing verifies integrity. |
+| 118 | D | Encryption | Encryption protects confidentiality. |
+| 119 | D | Crypto-shredding | Destroying keys renders encrypted data inaccessible. |
+| 120 | B | Change management policy | Rollback/backout is part of change management. |
+
+---

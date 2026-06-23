@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ISC2 CC Practice Exam Engine</title>
+  <link rel="stylesheet" href="styles cc exam.css">
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="exam-start-overlay hidden" id="examStartOverlay" role="dialog" aria-modal="true" aria-labelledby="examStartTitle">
+  <div class="exam-start-modal">
+    <p class="eyebrow">Timed attempt</p>
+    <h2 id="examStartTitle">Exam is already starting</h2>
+    <p>Scroll down to see the exam. Your timer has started.</p>
+
+    <div class="button-row exam-start-actions">
+      <button class="btn" id="examStartScrollBtn" type="button">Go to exam now</button>
+      <button class="btn secondary" id="examStartDismissBtn" type="button">Stay here</button>
+    </div>
+  </div>
+</div>
+  <div class="shell">
+    <section class="hero">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">ISC2 CC Practice Exam By: James Jamero</p>
+          <h1>Created by James Jamero: featuring timed practice exams based on the full 600-questions bank.</h1>
+          <p>
+            Load <strong>ccexam.txt</strong> from this workspace, choose a domain, and take a 120-question exam each domain with a live timer, autoscoring, and answer review.
+          </p>
+          <div class="stats-grid">
+            <div class="stat">
+              <strong id="statDomains">5 domains</strong>
+              <span>Security Principles through Security Operations</span>
+            </div>
+            <div class="stat">
+              <strong id="statQuestions">600 questions</strong>
+              <span>120 questions per domain, sourced from your bank</span>
+            </div>
+            <div class="stat">
+              <strong id="statTimer">Flexible minute timer, up until 300 minutes</strong>
+              <span>Configurable per attempt</span>
+            </div>
+            <div class="stat">
+              <strong id="statScoring">Live scoring</strong>
+              <span>Review missed answers and explanations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="hero-panel actions-panel">
+        <div class="action-card">
+          <div class="field">
+            <label for="fileInput">Load question bank</label>
+            <div class="upload-zone" id="uploadZone">
+              <strong>Drop a question bank file here or browse for it.</strong>
+              <p>Supported formats include TXT, MD, CSV, JSON, HTML, PDF, DOCX, and XLSX. The app can also try to auto-load ccexam.txt from the same folder when opened from a local server.</p>
+              <input id="fileInput" type="file" accept=".txt,.md,.markdown,.csv,.json,.html,.htm,.xml,.rtf,.doc,.docx,.xls,.xlsx,.pdf,text/plain,text/markdown,text/csv,application/json,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            </div>
+          </div>
+        </div>
+        <div class="action-card">
+          <div class="field-row">
+            <div class="field">
+              <label for="domainSelect">Choose domain</label>
+              <select id="domainSelect" disabled></select>
+            </div>
+            <div class="field">
+              <label for="durationInput">Timer length (minutes)</label>
+              <input id="durationInput" type="number" min="10" max="300" step="5" value="120" disabled>
+            </div>
+          </div>
+          <div class="button-row action-buttons-top">
+            <button id="autoLoadBtn" class="btn secondary" type="button">Auto-load bank</button>
+            <button id="startBtn" class="btn" type="button" disabled>Start exam</button>
+          </div>
+          <div class="status-banner" id="bankStatus">Waiting for the question bank. Load the TXT file to begin.</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel" id="bankOverview">
+      <div class="toolbar">
+        <div class="group">
+          <h2>Domain bank</h2>
+          <span class="pill"><strong id="loadedQuestions">0</strong> questions loaded</span>
+        </div>
+        <div class="group">
+          <span class="pill">Current domain: <strong id="currentDomainLabel">None</strong></span>
+          <span class="pill">Answered: <strong id="answeredCount">0</strong></span>
+          <span class="pill timer" id="timerDisplay">00:00:00</span>
+        </div>
+      </div>
+      <div class="bank-grid" id="domainCards"></div>
+      <div class="footer-note">The website reads the answer key embedded in <strong>ccexam.txt</strong>, so scoring and explanations stay aligned with the source bank.</div>
+    </section>
+
+    <section class="main-grid hidden" id="examArea">
+      <div class="panel question-shell">
+        <div class="toolbar">
+          <div class="group">
+            <span class="pill">Question <strong id="questionCounter">1</strong>/<strong id="questionTotal">120</strong></span>
+            <span class="pill">Marked <strong id="markedCount">0</strong></span>
+          </div>
+          <div class="group">
+            <button class="btn secondary" id="markBtn" type="button">Mark for review</button>
+            <button class="btn secondary" id="clearBtn" type="button">Clear answer</button>
+            <button class="btn danger" id="submitBtn" type="button">Submit exam</button>
+          </div>
+        </div>
+
+        <div class="progress-wrap">
+          <div class="legend-row">
+            <span class="muted">Progress</span>
+            <span class="muted" id="progressText">0 answered / 120</span>
+          </div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        </div>
+
+        <article class="question-card" id="questionCard">
+          <div class="question-meta">
+            <div>
+              <div class="question-number" id="domainHeading">Domain</div>
+              <h3 id="questionTitle">Load a domain to begin</h3>
+            </div>
+            <div class="pill">Timer <strong id="inlineTimer">00:00:00</strong></div>
+          </div>
+          <div class="empty-state" id="emptyQuestionState">
+            Choose a domain, load the TXT file if needed, and start the attempt. Questions will appear here one at a time.
+          </div>
+          <div class="hidden" id="questionBody">
+            <div class="question-text" id="questionText"></div>
+            <div class="options" id="optionsList"></div>
+            <div class="question-actions">
+              <div class="nav-buttons">
+                <button class="btn secondary" id="prevBtn" type="button">Previous</button>
+                <button class="btn secondary" id="nextBtn" type="button">Next</button>
+              </div>
+              <div class="pill">Answered <strong id="localAnswered">0</strong>/120</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="panel">
+        <div class="legend">
+          <div class="legend-row">
+            <h3>Question navigator</h3>
+            <span class="muted">Click to jump</span>
+          </div>
+          <div class="legend-row">
+            <span class="pill"><span class="legend-dot current"></span> Current</span>
+            <span class="pill"><span class="legend-dot answered"></span> Answered</span>
+            <span class="pill"><span class="legend-dot flagged"></span> Flagged</span>
+          </div>
+        </div>
+        <div class="navigator" id="navigator"></div>
+      </aside>
+    </section>
+
+    <section class="panel hidden" id="resultsArea">
+      <div class="toolbar">
+        <div class="group">
+          <h2>Results</h2>
+          <span class="pill">Domain <strong id="resultDomain">-</strong></span>
+        </div>
+        <div class="group">
+          <button class="btn secondary" id="reviewAllBtn" type="button">Show all</button>
+          <button class="btn secondary" id="reviewWrongBtn" type="button">Wrong only</button>
+          <button class="btn secondary" id="retakeBtn" type="button">Retake domain</button>
+        </div>
+      </div>
+      <div class="results-grid">
+        <div class="result-card"><strong id="scoreValue">0%</strong><span>Final score</span></div>
+        <div class="result-card"><strong id="correctValue">0</strong><span>Correct answers</span></div>
+        <div class="result-card"><strong id="wrongValue">0</strong><span>Incorrect answers</span></div>
+        <div class="result-card"><strong id="timeUsedValue">00:00:00</strong><span>Time used</span></div>
+      </div>
+      <div class="notice" id="resultSummary"></div>
+      <div class="review-controls">
+        <span class="pill">Answered <strong id="resultAnswered">0</strong>/120</span>
+        <span class="pill">Flagged <strong id="resultFlagged">0</strong></span>
+        <span class="pill">Unanswered <strong id="resultUnanswered">0</strong></span>
+      </div>
+      <div class="review-list" id="reviewList"></div>
+    </section>
+  </div>
+  <script src="script cc exam.js"></script>
+</body>
+</html>
